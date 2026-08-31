@@ -1,0 +1,111 @@
+The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.
+
+<SYSTEM_MESSAGE>
+[Message] timestamp=2026-07-14T09:45:48Z sender=7f9cd283-0ae3-4316-910d-c608bd6f4137/task-844 priority=MESSAGE_PRIORITY_LOW content=Task id "7f9cd283-0ae3-4316-910d-c608bd6f4137/task-844" was canceled with result:
+Step was canceled: context canceled by manage_task
+			The following output was generated before the cancellation.
+				Output:
+				<truncated 3 lines>
+2026-07-14 15:12:13,596 - server - INFO - Database seeded successfully from cities.json!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:65029 - "GET /api/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65030 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65031 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65032 - "GET /api/destinations/search?q=Dwarka HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65033 - "GET /api/destinations/search?q=Beach HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65034 - "GET /api/destinations/search?q=Temple HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65035 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65036 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65037 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65038 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65039 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65040 - "GET /api/destinations/kutch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65041 - "GET /api/destinations/kutch/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65042 - "GET /api/destinations/kutch/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65043 - "GET /api/destinations/kutch/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65044 - "GET /api/destinations/kutch/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65045 - "GET /api/destinations/gir HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65046 - "GET /api/destinations/gir/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65047 - "GET /api/destinations/gir/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65048 - "GET /api/destinations/gir/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65049 - "GET /api/destinations/gir/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65050 - "POST /api/ai/description HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65051 - "POST /api/ai/description HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65052 - "POST /api/trips HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65053 - "POST /api/trips/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65054 - "GET /api/trips/2c6cb43c-5025-498c-99d4-92b2a6c3882a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65055 - "POST /api/trips/2c6cb43c-5025-498c-99d4-92b2a6c3882a/vote HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65056 - "GET /api/trips/2c6cb43c-5025-498c-99d4-92b2a6c3882a/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65057 - "POST /api/compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65059 - "POST /api/ai/suggestions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56860 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56860 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/gir/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/gir HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/gir/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/gir/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/gir/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/gir HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/gir/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/gir/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/gir/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/gir/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/gir HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/gir/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/gir/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/gir/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51469 - "GET /api/destinations/gir/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /api/destinations/gir HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/destinations/gir/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /api/destinations/gir/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations/gir/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations/gir/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53405 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57863 - "GET /api/destinations HTTP/1.1" 200 OK
+
+
+Log: file:///C:/Users/baria/.gemini/antigravity/brain/7f9cd283-0ae3-4316-910d-c608bd6f4137/.system_generated/tasks/task-844.log
+</SYSTEM_MESSAGE>

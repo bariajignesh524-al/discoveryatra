@@ -1,0 +1,373 @@
+INFO:     127.0.0.1:55490 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55494 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55495 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55496 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55497 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55498 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample docs (up to 10): ['Sardar Vallabhbhai Patel International Airport', 'Ahmedabad Junction (Kalupur)', 'Ahmedabad BRTS Bus', 'Bhuj Railway Station', 'GSRTC Sleeper Bus', 'Junagadh Railway Station', 'State Transport Cabs', 'Dwarka Railway Station', 'Private Volvo Sleepers', 'Veraval Railway Station']
+Sample docs (up to 10): ['Law Garden Night Market', 'Bhujodi Handicraft Village', 'Sasan Gir Mango Markets', 'Dwarka Bazaar', 'Somnath Temple Arcade', 'Mandvi Market', 'Surat Textile Market', 'Dangi Craft Emporium', 'Ekta Mall', 'Shroff Bazaar']
+Sample docs (up to 10): ['Sabarmati Ashram', 'Adalaj Stepwell', 'Kalo Dungar (Black Hill)', 'Sasan Gir Safari Tour', 'Dwarkadhish Temple', 'Shivrajpur Beach', 'Somnath Shore Temple', 'Laxmi Vilas Palace', 'Dumas Beach', 'Saputara Lake & Cable Car']
+Sample docs (up to 10): ['Ahmedabad', 'Rann of Kutch', 'Gir National Park', 'Dwarka', 'Somnath', 'Vadodara', 'Surat', 'Saputara', 'Statue of Unity (Kevadia)', 'Bhuj']
+Sample docs (up to 10): ['House of MG', 'Hyatt Regency Ahmedabad', 'Hotel Riverview', 'Gateway to Rann Resort', 'Rann Utsav Tent City', 'The Woods at Sasan', 'Gir Birding Lodge', 'Hawthorn Suites by Wyndham', 'Vits Devbhumi Temple View', 'The Lords Inn Somnath']
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+Replace DESTINATIONS_DATA entirely with Gujarat state cities only (remove Delhi, Jaipur, Goa, Kerala, Agra, Varanasi, Mumbai, Udaipur completely). Include all major Gujarat cities: Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhavnagar, Jamnagar, Junagadh, Dwarka, Somnath, Rann of Kutch, Gir National Park, Saputara, Diu, Palitana, Patan — each with a unique lowercase id, name, state: "Gujarat", accurate description, correct image_url matching that city, latitude/longitude, best_time_to_visit, popular_for, and budget_per_day.
+['ahmedabad', 'kutch', 'gir', 'dwarka', 'somnath', 'vadodara', 'surat', 'saputara', 'kevadia', 'bhuj', 'junagadh', 'rajkot', 'gandhinagar', 'bhavnagar', 'jamnagar', 'porbandar', 'patan', 'modhera', 'champaner', 'anand', 'morbi', 'bharuch', 'valsad', 'navsari', 'palanpur', 'himmatnagar', 'nadiad', 'amreli', 'surendranagar', 'vyara', 'dahod', 'godhra', 'botad', 'chhota_udaipur', 'lunawada', 'modasa']
+INFO:     127.0.0.1:58988 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58992 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58993 - "GET /api/destinations/ahmedabad/hotels HTTP/1.
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+[('ahmedabad', 'Gujarat'), ('kutch', 'Gujarat'), ('gir', 'Gujarat'), ('dwarka', 'Gujarat'), ('somnath', 'Gujarat'), ('vadodara', 'Gujarat'), ('surat', 'Gujarat'), ('saputara', 'Gujarat'), ('kevadia', 'Gujarat'), ('bhuj', 'Gujarat'), ('junagadh', 'Gujarat'), ('rajkot', 'Gujarat'), ('gandhinagar', 'Gujarat'), ('bhavnagar', 'Gujarat'), ('jamnagar', 'Gujarat'), ('porbandar', 'Gujarat'), ('patan', 'Gujarat'), ('modhera', 'Gujarat'), ('champaner', 'Gujarat'), ('anand', 'Gujarat'), ('morbi', 'Gujarat'), ('bharuch', 'Gujarat'), ('valsad', 'Gujarat'), ('navsari', 'Gujarat'), ('palanpur', 'Gujarat'), ('himmatnagar', 'Gujarat'), ('nadiad', 'Gujarat'), ('amreli', 'Gujarat'), ('surendranagar', 'Gujarat'), ('vyara', 'Gujarat'), ('dahod', 'Gujarat'), ('godhra', 'Gujarat'), ('botad', 'Gujarat'), ('chhota_udaipur', 'Gujarat'), ('lunawada', 'Gujarat'), ('modasa', 'Gujarat'), ('diu', 'Gujarat'), ('palitana', 'Gujarat')]
+2. Replace DESTINATIONS_DATA so it contains ONLY Gujarat state cities — completely remove any non-Gujarat cities (e.g. Delhi, Jaipur, Goa, Kerala, Agra, Varanasi, Mumbai, Udaipur) everywhere in the codebase, not just from this array. Include all major Gujarat cities: Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhavnagar, Jamnagar, Junagadh, Dwarka, Somnath, Rann of Kutch, Gir National Park, Saputara, Diu, Palitana, Patan. Each entry needs: a unique lowercase id, name, state: "Gujarat", accurate description, correct image_url matching that specific city (no mismatched photos), latitude/longitude, best_time_to_visit, popular_for, and budget_per_day.
+7. Test: click every Gujarat city card (Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhavnagar, Jamnagar, Junagadh, Dwarka, Somnath, Rann of Kutch, Gir National Park, Saputara, Diu, Palitana, Patan) and confirm the correct name, description, photo, hotels, attractions, shopping, and transport data load every time. Also confirm trip creation works end-to-end for each city with no console/server errors.
+SUCCESS: Filtered cities.json to exactly 16 cities: ['ahmedabad', 'kutch', 'gir', 'dwarka', 'somnath', 'vadodara', 'surat', 'saputara', 'junagadh', 'rajkot', 'gandhinagar', 'bhavnagar', 'jamnagar', 'patan', 'diu', 'palitana']
+INFO:     127.0.0.1:52747 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52751 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52752 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52754 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52755 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+- Refined [cities.json](file:///c:/Users/baria/Downloads/discoveryatra-main/discoveryatra-main/frontend/src/data/cities.json) to contain **exactly the 16 major Gujarat cities** you requested (Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhavnagar, Jamnagar, Junagadh, Dwarka, Somnath, Rann of Kutch, Gir National Park, Saputara, Diu, Palitana, and Patan).
+INFO:     127.0.0.1:51579 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51583 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51584 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51585 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51586 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51587 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:52253 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52257 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52258 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52259 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52260 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52261 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:64106 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64110 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64111 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64112 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64113 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64114 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+Searching "Ahmedabad" should still display Ahmedabad.
+Searching for "Rajasthan", "Goa", "Kerala", "Mumbai", or any other newly added state always displays only Gujarat destinations (Ahmedabad and Rann of Kutch).
+- Ahmedabad
+INFO:     127.0.0.1:64145 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64149 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64150 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64151 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64152 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64153 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 1 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:55914 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55918 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55919 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55920 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55921 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55922 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:60752 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60756 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60757 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60758 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60759 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60760 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:55068 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55072 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55073 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55074 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55075 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55076 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:52478 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52482 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52483 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52484 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52485 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52486 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60744 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60574 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63794 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60744 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60574 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65017 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63794 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:65031 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65035 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65036 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65037 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65038 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65039 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+9: INFO:     127.0.0.1:63489 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+13: INFO:     127.0.0.1:63493 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+14: INFO:     127.0.0.1:63494 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+15: INFO:     127.0.0.1:63495 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+16: INFO:     127.0.0.1:63496 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+17: INFO:     127.0.0.1:63497 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+"image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+"address": "Lal Darwaja, Ahmedabad",
+"image_url": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=800&q=80",
+"image_url": "https://images.unsplash.com/photo-1604923517951-d293af28f553?auto=format&fit=crop&q=80",
+"address": "Ellisbridge, Ahmedabad",
+"to_location": "Ahmedabad",
+1: ahmedabad|Ahmedabad|Gujarat
+5: somnath|Somnath|Gujarat
+Searching for "Rajasthan", "Goa", "Kerala", "Mumbai", or any other newly added state always displays only Gujarat destinations (Ahmedabad and Rann of Kutch).
+482:         response = f"1. Ahmedabad: Perfect for heritage walks and street food.\n2. Rann of Kutch: Great for desert landscapes and stargazing.\n3. Gir National Park: Ideal for wildlife safaris to see Asiatic Lions.\n\nTip: Plan ahead for the best experience!"
+INFO:     127.0.0.1:63489 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63493 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63495 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63496 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63497 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+INFO:     127.0.0.1:52576 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52580 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52581 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52582 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52583 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52584 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample destination: Ahmedabad
+🔍 Testing Search Destinations - 'Ahmedabad'...
+Found 2 results for 'Ahmedabad'
+--- Testing AHMEDABAD ---
+🔍 Testing Get Destination Details - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad
+🔍 Testing Get Hotels - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/hotels
+🔍 Testing Get Attractions - ahmedabad...
+URL: http://127.0.0.1:8000/api/destinations/ahmedabad/attractions
+• Search Destinations - 'Ahmedabad'
+• Get Destination Details - ahmedabad
+• Get Hotels - ahmedabad
+• Get Attractions - ahmedabad
+• Get Shopping - ahmedabad
+• Get Transport - ahmedabad
+• AI Description - Ahmedabad (overview)
+12:         "ahmedabad": "Ahmedabad", "kutch": "Kutch", "gir": "Junagadh", "dwarka": "Devbhumi Dwarka",
+13:         "somnath": "Gir Somnath", "vadodara": "Vadodara", "surat": "Surat", "saputara": "Dang",
+90:             "nearby_places": ["Gir", "Somnath"]
+100:             "nearby_places": ["Ahmedabad", "Adalaj"]
+INFO:     127.0.0.1:55490 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55494 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55495 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55496 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55497 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55498 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+Sample docs (up to 10): ['Sardar Vallabhbhai Patel International Airport', 'Ahmedabad Junction (Kalupur)', 'Ahmedabad BRTS Bus', 'Bhuj Railway Station', 'GSRTC Sleeper Bus', 'Junagadh Railway Station', 'State Transport Cabs', 'Dwarka Railway Station', 'Private Volvo Sleepers', 'Veraval Railway Station']
+Sample docs (up to 10): ['Law Garden Night Market', 'Bhujodi Handicraft Village', 'Sasan Gir Mango Markets', 'Dwarka Bazaar', 'Somnath Temple Arcade', 'Mandvi Market', 'Surat Textile Market', 'Dangi Craft Emporium', 'Ekta Mall', 'Shroff Bazaar']
+Sample docs (up to 10): ['Sabarmati Ashram', 'Adalaj Stepwell', 'Kalo Dungar (Black Hill)', 'Sasan Gir Safari Tour', 'Dwarkadhish Temple', 'Shivrajpur Beach', 'Somnath Shore Temple', 'Laxmi Vilas Palace', 'Dumas Beach', 'Saputara Lake & Cable Car']
+Sample docs (up to 10): ['Ahmedabad', 'Rann of Kutch', 'Gir National Park', 'Dwarka', 'Somnath', 'Vadodara', 'Surat', 'Saputara', 'Statue of Unity (Kevadia)', 'Bhuj']
+Sample docs (up to 10): ['House of MG', 'Hyatt Regency Ahmedabad', 'Hotel Riverview', 'Gateway to Rann Resort', 'Rann Utsav Tent City', 'The Woods at Sasan', 'Gir Birding Lodge', 'Hawthorn Suites by Wyndham', 'Vits Devbhumi Temple View', 'The Lords Inn Somnath']
+Sample destination: Ahmedabad

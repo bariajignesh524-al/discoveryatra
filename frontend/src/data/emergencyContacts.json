@@ -1,0 +1,30 @@
+[
+  {
+    "label": "National Emergency",
+    "numbers": ["112"]
+  },
+  {
+    "label": "Police",
+    "numbers": ["100"]
+  },
+  {
+    "label": "Fire",
+    "numbers": ["101"]
+  },
+  {
+    "label": "Ambulance",
+    "numbers": ["102", "108"]
+  },
+  {
+    "label": "Tourist Helpline",
+    "numbers": ["1363"]
+  },
+  {
+    "label": "Women's Helpline",
+    "numbers": ["1091"]
+  },
+  {
+    "label": "Road Accident Emergency",
+    "numbers": ["1073"]
+  }
+]

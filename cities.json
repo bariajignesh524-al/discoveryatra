@@ -1,0 +1,2339 @@
+{
+  "destinations": [
+    {
+      "id": "ahmedabad",
+      "name": "Ahmedabad",
+      "state": "Gujarat",
+      "description": "Ahmedabad, India's first UNESCO World Heritage City, is a vibrant metropolis sitting on the banks of the Sabarmati River. Known for its gorgeous historical stepwells, cotton industry heritage, Mahatma Gandhi's Sabarmati Ashram, and mouth-watering Gujarati street food, it blends historical charm with modern progress.",
+      "short_description": "UNESCO World Heritage City & cultural hub",
+      "image_url": "/images/destinations/ahmedabad.jpg",
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Heritage",
+        "Street Food",
+        "Ashram",
+        "Textiles"
+      ],
+      "budget_per_day": 3000
+    },
+    {
+      "id": "kutch",
+      "name": "Rann of Kutch",
+      "state": "Gujarat",
+      "description": "The Great Rann of Kutch is a vast, breathtaking seasonal salt desert located in the Thar Desert. Under the full moon night, the endless white salt desert gleams like a diamond. During winter, it hosts the famous Rann Utsav festival featuring local music, dance, folk arts, and stunning handicraft tents.",
+      "short_description": "India's spectacular white salt desert",
+      "image_url": "/images/destinations/kutch.jpg",
+      "latitude": 23.8294,
+      "longitude": 69.8315,
+      "best_time_to_visit": "November to February",
+      "popular_for": [
+        "Salt Desert",
+        "Culture",
+        "Handicrafts",
+        "Stargazing"
+      ],
+      "budget_per_day": 4500
+    },
+    {
+      "id": "gir",
+      "name": "Gir National Park",
+      "state": "Gujarat",
+      "description": "Gir National Park and Sanctuary is the last remaining wild habitat of the majestic Asiatic Lion. With dry deciduous forests, rugged hills, and seasonal rivers, Gir offers thrilling wildlife safaris where visitors can spot leopards, deer, crocodiles, and diverse bird species along with the pride of lions.",
+      "short_description": "The exclusive home of wild Asiatic Lions",
+      "image_url": "/images/destinations/gir.jpg",
+      "latitude": 21.1243,
+      "longitude": 70.8242,
+      "best_time_to_visit": "December to March",
+      "popular_for": [
+        "Wildlife Safari",
+        "Lions",
+        "Nature Trails",
+        "Forest"
+      ],
+      "budget_per_day": 4000
+    },
+    {
+      "id": "dwarka",
+      "name": "Dwarka",
+      "state": "Gujarat",
+      "description": "Dwarka is a sacred ancient city situated on the western tip of the Saurashtra peninsula. Associated with the kingdom of Lord Krishna, it is one of the holy Char Dham pilgrimage sites. The majestic 5-story Dwarkadhish Temple overlooks the Arabian Sea and the Gomti River.",
+      "short_description": "Ancient sacred temple town of Lord Krishna",
+      "image_url": "/images/destinations/dwarka.jpg",
+      "latitude": 22.2442,
+      "longitude": 68.9684,
+      "best_time_to_visit": "September to March",
+      "popular_for": [
+        "Temples",
+        "Spirituality",
+        "Beaches",
+        "Ancient History"
+      ],
+      "budget_per_day": 2500
+    },
+    {
+      "id": "somnath",
+      "name": "Somnath",
+      "state": "Gujarat",
+      "description": "Somnath is home to the legendary Somnath Temple, one of the twelve sacred Jyotirlingas of Lord Shiva. Located on the shores of the Arabian Sea, this temple has been destroyed and rebuilt multiple times throughout history, standing today as an eternal symbol of resilience and devotion.",
+      "short_description": "Sacred seaside Jyotirlinga temple",
+      "image_url": "/images/destinations/somnath.jpg",
+      "latitude": 20.888,
+      "longitude": 70.4012,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Temples",
+        "Spirituality",
+        "Beaches",
+        "History"
+      ],
+      "budget_per_day": 2500
+    },
+    {
+      "id": "vadodara",
+      "name": "Vadodara",
+      "state": "Gujarat",
+      "description": "Vadodara (formerly Baroda) is the cultural capital of Gujarat. It is famous for the majestic Laxmi Vilas Palace—one of the largest private residences in the world—along with lush parks, museums, and rich traditions of art and education.",
+      "short_description": "Cultural capital & home of Laxmi Vilas Palace",
+      "image_url": "/images/destinations/vadodara.jpg",
+      "latitude": 22.3072,
+      "longitude": 73.1812,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Palaces",
+        "Culture",
+        "Art",
+        "Museums"
+      ],
+      "budget_per_day": 3200
+    },
+    {
+      "id": "surat",
+      "name": "Surat",
+      "state": "Gujarat",
+      "description": "Surat is a dynamic commercial city known globally for its diamond polishing and cutting industry, as well as its massive textile manufacturing. Located on the Tapi river, it is also famous for its unique local food, clean streets, and coastal attractions like Dumas Beach.",
+      "short_description": "The Diamond City with rich street food",
+      "image_url": "/images/destinations/surat.jpg",
+      "latitude": 21.1702,
+      "longitude": 72.8311,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Diamonds",
+        "Textiles",
+        "Street Food",
+        "Beaches"
+      ],
+      "budget_per_day": 3500
+    },
+    {
+      "id": "saputara",
+      "name": "Saputara",
+      "state": "Gujarat",
+      "description": "Saputara is Gujarat's only hill station, nestled in the Sahyadri range (Dang forest area). It offers a refreshing escape with its beautiful lake, cable cars, dense green valleys, waterfalls, and cool climate, making it a popular nature getaway.",
+      "short_description": "Gujarat's scenic only hill station",
+      "image_url": "/images/destinations/saputara.jpg",
+      "latitude": 20.5794,
+      "longitude": 73.7494,
+      "best_time_to_visit": "June to November",
+      "popular_for": [
+        "Hill Station",
+        "Nature",
+        "Waterfalls",
+        "Lakes"
+      ],
+      "budget_per_day": 3000
+    },
+    {
+      "id": "kevadia",
+      "name": "Statue of Unity (Kevadia)",
+      "state": "Gujarat",
+      "description": "Kevadia is home to the Statue of Unity, the world's tallest statue (182 meters) dedicated to visionary leader Sardar Vallabhbhai Patel. Set against the Narmada River and Satpura hills, it includes a viewing gallery, valley of flowers, jungle safari, and laser light shows.",
+      "short_description": "World's tallest monument & eco-tourism hub",
+      "image_url": "/images/destinations/kevadia.jpg",
+      "latitude": 21.838,
+      "longitude": 73.7191,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Statues",
+        "Eco-Tourism",
+        "Gardens",
+        "Riverfront"
+      ],
+      "budget_per_day": 4000
+    },
+    {
+      "id": "bhuj",
+      "name": "Bhuj",
+      "state": "Gujarat",
+      "description": "Bhuj is a historic walled city in the heart of Kutch. It features ancient palaces like the Italian-gothic Prag Mahal and the mirror-palace Aina Mahal. It serves as the primary base for exploring Kutchi craft villages and desert landscapes.",
+      "short_description": "Historic gateway to Kutchi art and heritage",
+      "image_url": "/images/destinations/bhuj.jpg",
+      "latitude": 23.242,
+      "longitude": 69.6669,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Palaces",
+        "History",
+        "Crafts",
+        "Culture"
+      ],
+      "budget_per_day": 2800
+    },
+    {
+      "id": "junagadh",
+      "name": "Junagadh",
+      "state": "Gujarat",
+      "description": "Junagadh, located at the base of the sacred Girnar hills, is a city steeped in ancient history. It is home to the historic Uparkot Fort, rock edicts of Emperor Ashoka, and the unique Mahabat Maqbara—an architectural masterpiece blending European and Gothic styles.",
+      "short_description": "Ancient city at the foot of sacred Girnar",
+      "image_url": "/images/destinations/junagadh.jpg",
+      "latitude": 21.5222,
+      "longitude": 70.4579,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Forts",
+        "Spirituality",
+        "Trekking",
+        "Architecture"
+      ],
+      "budget_per_day": 2600
+    },
+    {
+      "id": "rajkot",
+      "name": "Rajkot",
+      "state": "Gujarat",
+      "description": "Rajkot, situated in the center of the Saurashtra region, is a historic city that was once the capital of the princely state of Saurashtra. Known for its industrial growth, heritage landmarks like the Watson Museum, Kaba Gandhi No Delo (Gandhi's childhood home), and vibrant markets.",
+      "short_description": "Industrial hub & home of Mahatma Gandhi's childhood",
+      "image_url": "/images/destinations/rajkot.jpg",
+      "latitude": 22.3039,
+      "longitude": 70.8022,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "History",
+        "Museums",
+        "Handicrafts",
+        "Business"
+      ],
+      "budget_per_day": 2800
+    },
+    {
+      "id": "gandhinagar",
+      "name": "Gandhinagar",
+      "state": "Gujarat",
+      "description": "Gandhinagar, the green capital city of Gujarat, is located on the banks of the Sabarmati River. Spanned as a spacious, well-organized town, it is famous for the majestic Akshardham Temple, Sarita Udyan, and the annual Vasant Utsav cultural festival.",
+      "short_description": "Gujarat's planned green capital & home of Akshardham",
+      "image_url": "/images/destinations/gandhinagar.jpg",
+      "latitude": 23.2156,
+      "longitude": 72.6369,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Temples",
+        "Parks",
+        "Architecture",
+        "Capital"
+      ],
+      "budget_per_day": 3000
+    },
+    {
+      "id": "bhavnagar",
+      "name": "Bhavnagar",
+      "state": "Gujarat",
+      "description": "Bhavnagar is a coastal city on the Gulf of Khambhat. It is a major trade center for cotton goods and is the gateway to the world-famous Palitana temples on Shatrunjaya hill—a key Jain pilgrimage destination with over 800 marble temples.",
+      "short_description": "Coastal port & gateway to Palitana Jain temples",
+      "image_url": "/images/destinations/bhavnagar.jpg",
+      "latitude": 21.7645,
+      "longitude": 72.1519,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Temples",
+        "Nature",
+        "Heritage",
+        "Jainism"
+      ],
+      "budget_per_day": 2700
+    },
+    {
+      "id": "jamnagar",
+      "name": "Jamnagar",
+      "state": "Gujarat",
+      "description": "Jamnagar, the 'Jewel of Kathiawar', lies on the coast of the Gulf of Kutch. It features beautiful lakes, Lakhota Fort in the center of the lake, grand palaces, and the unique Marine National Park with coral reefs and diverse marine life.",
+      "short_description": "The Jewel of Kathiawar with Lakhota Palace",
+      "image_url": "/images/destinations/jamnagar.jpg",
+      "latitude": 22.4707,
+      "longitude": 70.0577,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Palaces",
+        "Lakes",
+        "Marine Life",
+        "Textiles"
+      ],
+      "budget_per_day": 2800
+    },
+    {
+      "id": "porbandar",
+      "name": "Porbandar",
+      "state": "Gujarat",
+      "description": "Porbandar, located on the Arabian Sea coast, is historically famous as the birthplace of Mahatma Gandhi. It features Kirti Mandir (Gandhi's memorial house), pristine sandy beaches, and ancient temples, reflecting rich history and coastal peace.",
+      "short_description": "Coastline city & birthplace of Mahatma Gandhi",
+      "image_url": "/images/destinations/porbandar.jpg",
+      "latitude": 21.6417,
+      "longitude": 69.6093,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Gandhi Birthplace",
+        "Beaches",
+        "Temples",
+        "History"
+      ],
+      "budget_per_day": 2400
+    },
+    {
+      "id": "patan",
+      "name": "Patan",
+      "state": "Gujarat",
+      "description": "Patan is an ancient fortified town founded in the 8th century. It is world-renowned for the Rani ki Vav (Queen's Stepwell)—a UNESCO World Heritage Site with breathtaking underground stepwell carvings—and the exotic double-ikat Patola silk saris.",
+      "short_description": "Ancient capital home to UNESCO Rani ki Vav stepwell",
+      "image_url": "/images/destinations/patan.jpg",
+      "latitude": 23.8493,
+      "longitude": 72.1266,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Stepwells",
+        "UNESCO",
+        "Patola Silk",
+        "History"
+      ],
+      "budget_per_day": 2500
+    },
+    {
+      "id": "modhera",
+      "name": "Modhera",
+      "state": "Gujarat",
+      "description": "Modhera is home to the stunning 11th-century Sun Temple built by the Solanki dynasty. Built on the banks of the Pushpavati River, it features a massive ornate stepwell reservoir (Surya Kund) and pillars displaying exquisite carvings of epic legends.",
+      "short_description": "Historic home of the majestic 11th-century Sun Temple",
+      "image_url": "/images/destinations/modhera.jpg",
+      "latitude": 23.5835,
+      "longitude": 72.133,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Sun Temple",
+        "Architecture",
+        "Heritage",
+        "History"
+      ],
+      "budget_per_day": 2200
+    },
+    {
+      "id": "champaner",
+      "name": "Champaner",
+      "state": "Gujarat",
+      "description": "Champaner-Pavagadh Archaeological Park is a UNESCO World Heritage Site containing prehistoric sites, a hill fortress, stepwells, and mosques displaying exceptional fusion of Hindu-Islamic architecture, crowned by the Pavagadh Kalika Temple.",
+      "short_description": "UNESCO archeological park with Hindu-Islamic monuments",
+      "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80",
+      "latitude": 22.4646,
+      "longitude": 73.5358,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "UNESCO",
+        "Mosques",
+        "Trekking",
+        "Fortress"
+      ],
+      "budget_per_day": 2600
+    },
+    {
+      "id": "anand",
+      "name": "Anand",
+      "state": "Gujarat",
+      "description": "Anand, the Milk Capital of India, is the birthplace of the revolutionary white dairy cooperative movement (AMUL). It features the Amul Dairy Museum and chocolate plants, making it a key educational and agro-tourism stop.",
+      "short_description": "Milk Capital of India & birthplace of Amul dairy",
+      "image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80",
+      "latitude": 22.5645,
+      "longitude": 72.9289,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Amul Dairy",
+        "Agro-Tourism",
+        "Museums",
+        "Education"
+      ],
+      "budget_per_day": 2300
+    },
+    {
+      "id": "morbi",
+      "name": "Morbi",
+      "state": "Gujarat",
+      "description": "Morbi is the ceramic capital of India, producing a vast majority of the country's ceramic tiles. It features beautiful heritage architectures, the historic Mani Mandir, and a rich history of clock-making and industrial ventures.",
+      "short_description": "Ceramic capital of India & heritage city",
+      "image_url": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80",
+      "latitude": 22.812,
+      "longitude": 70.825,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Ceramics",
+        "Heritage",
+        "Mani Mandir",
+        "Clocks"
+      ],
+      "budget_per_day": 2500
+    },
+    {
+      "id": "bharuch",
+      "name": "Bharuch",
+      "state": "Gujarat",
+      "description": "Bharuch is an ancient city located at the mouth of the Narmada River. Historically a major seaport, it is famous for its Golden Bridge, salty peanuts (Sing), and the scenic Narmada riverfront.",
+      "short_description": "Ancient port city on Narmada famous for salty peanuts",
+      "image_url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&q=80",
+      "latitude": 21.7051,
+      "longitude": 72.9959,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Narmada River",
+        "Golden Bridge",
+        "Peanuts",
+        "History"
+      ],
+      "budget_per_day": 2400
+    },
+    {
+      "id": "valsad",
+      "name": "Valsad",
+      "state": "Gujarat",
+      "description": "Valsad is a beautiful coastal city famous for its Alphonso Mangoes (Hapus), Tithal Beach with its unique black sand, and the Sai Baba Temple overlooking the Arabian Sea.",
+      "short_description": "Coastal city famous for Tithal beach & Alphonso mangoes",
+      "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80",
+      "latitude": 20.5993,
+      "longitude": 72.9342,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Tithal Beach",
+        "Mangoes",
+        "Temples",
+        "Coastline"
+      ],
+      "budget_per_day": 2800
+    },
+    {
+      "id": "navsari",
+      "name": "Navsari",
+      "state": "Gujarat",
+      "description": "Navsari is a historical city known for its rich Parsi heritage and close connection to the Indian independence struggle. Dandi, located in Navsari district, is where Mahatma Gandhi led the historic Salt March in 1930.",
+      "short_description": "Historical city with Parsi heritage & Dandi Beach",
+      "image_url": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&q=80",
+      "latitude": 20.9467,
+      "longitude": 72.9279,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Dandi Beach",
+        "Gandhi History",
+        "Parsi Heritage",
+        "Spirituality"
+      ],
+      "budget_per_day": 2500
+    },
+    {
+      "id": "palanpur",
+      "name": "Palanpur",
+      "state": "Gujarat",
+      "description": "Palanpur, the capital of Banaskantha district, is a historical city famous for its diamond industry, proximity to Jessore Sloth Bear Sanctuary, Balaram Palace, and the scenic Aravali hills.",
+      "short_description": "Gateway to Banaskantha, diamond cutting & wildlife",
+      "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+      "latitude": 24.1722,
+      "longitude": 72.4346,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Diamonds",
+        "Wildlife",
+        "Palaces",
+        "Hills"
+      ],
+      "budget_per_day": 2600
+    },
+    {
+      "id": "himmatnagar",
+      "name": "Himmatnagar",
+      "state": "Gujarat",
+      "description": "Himmatnagar, located in the Sabarkantha district, is famous for its ceramic industries, the ancient Polo Forest nearby with its beautiful ruins and river, and local Gujarati culture.",
+      "short_description": "Gateway to the scenic and historic Polo Forest",
+      "image_url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80",
+      "latitude": 23.5979,
+      "longitude": 72.9622,
+      "best_time_to_visit": "September to February",
+      "popular_for": [
+        "Polo Forest",
+        "Temples",
+        "Nature",
+        "River"
+      ],
+      "budget_per_day": 2300
+    },
+    {
+      "id": "nadiad",
+      "name": "Nadiad",
+      "state": "Gujarat",
+      "description": "Nadiad, the largest city of Kheda district, is renowned for its cultural heritage and spiritual sites, notably the Santram Mandir. It is also the birthplace of Sardar Vallabhbhai Patel.",
+      "short_description": "Birthplace of Sardar Patel & home of Santram Mandir",
+      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80",
+      "latitude": 22.6916,
+      "longitude": 72.8634,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Santram Mandir",
+        "Heritage",
+        "Temples",
+        "History"
+      ],
+      "budget_per_day": 2400
+    },
+    {
+      "id": "amreli",
+      "name": "Amreli",
+      "state": "Gujarat",
+      "description": "Amreli is located in the Saurashtra region. It serves as an agro-based economic hub and contains parts of the Gir wildlife areas, offering a serene atmosphere with historic temples and stepwells.",
+      "short_description": "Serene city near Gir wildlife sanctuaries",
+      "image_url": "https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?auto=format&fit=crop&q=80",
+      "latitude": 21.6041,
+      "longitude": 71.2215,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Wildlife",
+        "Temples",
+        "Agro-tourism",
+        "History"
+      ],
+      "budget_per_day": 2200
+    },
+    {
+      "id": "surendranagar",
+      "name": "Surendranagar",
+      "state": "Gujarat",
+      "description": "Surendranagar, known as the gateway to Saurashtra, is famous for its cotton and salt trade, the unique Tarnetar Fair (folk dance and match-making festival), and beautiful handloom textiles.",
+      "short_description": "Gateway to Saurashtra & home of Tarnetar Fair",
+      "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80",
+      "latitude": 22.7239,
+      "longitude": 71.638,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Tarnetar Fair",
+        "Cotton Industry",
+        "Handlooms",
+        "Culture"
+      ],
+      "budget_per_day": 2300
+    },
+    {
+      "id": "vyara",
+      "name": "Vyara",
+      "state": "Gujarat",
+      "description": "Vyara, the headquarters of the Tapi district, is a peaceful forest-surrounded town in South Gujarat. It is known for its lush green hills, water reservoirs, and rich tribal heritage.",
+      "short_description": "Lush green town with rich tribal heritage",
+      "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80",
+      "latitude": 21.1214,
+      "longitude": 73.398,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Nature Trails",
+        "Forests",
+        "Tribal Culture",
+        "Waterfalls"
+      ],
+      "budget_per_day": 2200
+    },
+    {
+      "id": "dahod",
+      "name": "Dahod",
+      "state": "Gujarat",
+      "description": "Dahod is a historic city on the banks of the Dudhimati River, bordering Rajasthan and Madhya Pradesh. It is the birthplace of Mughal Emperor Aurangzeb and features scenic hills and historic fort ruins.",
+      "short_description": "Border city & birthplace of Aurangzeb",
+      "image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80",
+      "latitude": 22.8378,
+      "longitude": 74.2584,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "History",
+        "Fort Ruins",
+        "Temples",
+        "Scenic Hills"
+      ],
+      "budget_per_day": 2100
+    },
+    {
+      "id": "godhra",
+      "name": "Godhra",
+      "state": "Gujarat",
+      "description": "Godhra, the capital of Panchmahal district, is a historic town with a rich cultural background. It is a major trade center and serves as a gateway to Champaner-Pavagadh archaeological sites.",
+      "short_description": "Panchmahal trade hub & historic gateway",
+      "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80",
+      "latitude": 22.7753,
+      "longitude": 73.6149,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Trade",
+        "Temples",
+        "Culture",
+        "History"
+      ],
+      "budget_per_day": 2200
+    },
+    {
+      "id": "botad",
+      "name": "Botad",
+      "state": "Gujarat",
+      "description": "Botad is a bustling city in the Saurashtra region, widely famous for the Salangpur Hanumanji Temple and Gadhada Swaminarayan Temple, making it a key spiritual pilgrimage center.",
+      "short_description": "Famous spiritual center of Salangpur & Gadhada",
+      "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80",
+      "latitude": 22.1706,
+      "longitude": 71.6685,
+      "best_time_to_visit": "September to March",
+      "popular_for": [
+        "Salangpur Temple",
+        "Gadhada Temple",
+        "Spirituality",
+        "Cotton Trade"
+      ],
+      "budget_per_day": 2300
+    },
+    {
+      "id": "chhota_udaipur",
+      "name": "Chhota Udaipur",
+      "state": "Gujarat",
+      "description": "Chhota Udaipur is a scenic tribal-dominated town famous for its royal palace (Kusum Vilas Palace), weekly tribal markets (Haats), and vibrant Pithora tribal paintings.",
+      "short_description": "Royal heritage & colorful tribal culture",
+      "image_url": "https://images.unsplash.com/photo-1598370701047-97592cfdf1f2?auto=format&fit=crop&q=80",
+      "latitude": 22.3101,
+      "longitude": 74.0125,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Tribal Paintings",
+        "Palaces",
+        "Weekly Markets",
+        "Heritage"
+      ],
+      "budget_per_day": 2400
+    },
+    {
+      "id": "lunawada",
+      "name": "Lunawada",
+      "state": "Gujarat",
+      "description": "Lunawada, the capital of Mahisagar district, is a historic town surrounded by green hills, rivers, and temples. It is famous for its historic stepwells, palaces, and the pristine Panam Dam.",
+      "short_description": "Scenic town with historic stepwells & Panam Dam",
+      "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80",
+      "latitude": 23.1328,
+      "longitude": 73.6166,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Panam Dam",
+        "Temples",
+        "Stepwells",
+        "Scenic Hills"
+      ],
+      "budget_per_day": 2200
+    },
+    {
+      "id": "modasa",
+      "name": "Modasa",
+      "state": "Gujarat",
+      "description": "Modasa, the headquarters of the Aravalli district, is an educational and commercial hub nestled in the Aravalli hills range. It is known for its beautiful local temples, reservoirs, and historical monuments.",
+      "short_description": "Aravalli hills hub & commercial center",
+      "image_url": "https://images.unsplash.com/photo-1516690561799-46d8f74f90f6?auto=format&fit=crop&q=80",
+      "latitude": 23.4735,
+      "longitude": 73.2984,
+      "best_time_to_visit": "October to March",
+      "popular_for": [
+        "Temples",
+        "Aravalli Range",
+        "Reservoirs",
+        "Education"
+      ],
+      "budget_per_day": 2300
+    }
+  ],
+  "hotels": {
+    "ahmedabad": [
+      {
+        "name": "House of MG",
+        "description": "A premier heritage hotel showcasing vintage Gujarati grandeur and traditional fine dining.",
+        "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+        "rating": 4.7,
+        "price_per_night": 9000,
+        "amenities": [
+          "Heritage Tour",
+          "Pool",
+          "Organic Restaurant",
+          "WiFi"
+        ],
+        "address": "Lal Darwaja, Ahmedabad",
+        "latitude": 23.0272,
+        "longitude": 72.5804
+      },
+      {
+        "name": "Hyatt Regency Ahmedabad",
+        "description": "Modern 5-star luxury overlooking the Sabarmati Riverfront.",
+        "image_url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80",
+        "rating": 4.6,
+        "price_per_night": 7500,
+        "amenities": [
+          "River View",
+          "Gym",
+          "Spa",
+          "24-hr Dining"
+        ],
+        "address": "Ashram Road, Ahmedabad",
+        "latitude": 23.041,
+        "longitude": 72.5721
+      },
+      {
+        "name": "Hotel Riverview",
+        "description": "Comfortable mid-range stay near central shopping areas.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.0,
+        "price_per_night": 3000,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Opp. Nehru Bridge, Ahmedabad",
+        "latitude": 23.0298,
+        "longitude": 72.5688
+      }
+    ],
+    "kutch": [
+      {
+        "name": "Gateway to Rann Resort",
+        "description": "Traditional mud huts (Bhunga style) with authentic Kutchi hospitality near Dhordo.",
+        "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80",
+        "rating": 4.6,
+        "price_per_night": 8000,
+        "amenities": [
+          "Cultural Programs",
+          "Traditional Food",
+          "Desert Safari Tours",
+          "AC Bhunga"
+        ],
+        "address": "Dhordo Village, Kutch",
+        "latitude": 23.834,
+        "longitude": 69.7215
+      },
+      {
+        "name": "Rann Utsav Tent City",
+        "description": "Luxury Swiss tents located right at the edge of the White Salt Desert.",
+        "image_url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&q=80",
+        "rating": 4.8,
+        "price_per_night": 12000,
+        "amenities": [
+          "All-inclusive meals",
+          "Guided tours",
+          "Spa tents",
+          "Cultural Events"
+        ],
+        "address": "Dhordo Desert Border, Kutch",
+        "latitude": 23.829,
+        "longitude": 69.725
+      }
+    ],
+    "gir": [
+      {
+        "name": "The Woods at Sasan",
+        "description": "Eco-luxury wellness retreat offering curated forest experiences.",
+        "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80",
+        "rating": 4.8,
+        "price_per_night": 14000,
+        "amenities": [
+          "Organic Farm",
+          "Spa & Yoga",
+          "Safari Booking",
+          "Pool"
+        ],
+        "address": "Sasan Gir, Junagadh",
+        "latitude": 21.162,
+        "longitude": 70.583
+      },
+      {
+        "name": "Gir Birding Lodge",
+        "description": "Rustic resort located inside a large mango orchard bordering the national park.",
+        "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80",
+        "rating": 4.2,
+        "price_per_night": 5000,
+        "amenities": [
+          "Bird Watching tours",
+          "Bonfire",
+          "Authentic Kathiyawadi Meals"
+        ],
+        "address": "Sasan Gir Gates, Junagadh",
+        "latitude": 21.155,
+        "longitude": 70.59
+      }
+    ],
+    "dwarka": [
+      {
+        "name": "Hawthorn Suites by Wyndham",
+        "description": "Luxury villa-style resort with spiritual tranquility and modern amenities.",
+        "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+        "rating": 4.7,
+        "price_per_night": 6500,
+        "amenities": [
+          "Pool",
+          "Spa",
+          "Vegetarian Restaurant",
+          "Kids Area"
+        ],
+        "address": "Baradia, Dwarka",
+        "latitude": 22.235,
+        "longitude": 68.995
+      },
+      {
+        "name": "Vits Devbhumi Temple View",
+        "description": "Modern hotel within walking distance from the sacred Dwarkadhish Temple.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.1,
+        "price_per_night": 3500,
+        "amenities": [
+          "Temple shuttle",
+          "AC Rooms",
+          "Free WiFi",
+          "Restaurant"
+        ],
+        "address": "Near Dwarkadhish Temple, Dwarka",
+        "latitude": 22.2458,
+        "longitude": 68.9699
+      }
+    ],
+    "somnath": [
+      {
+        "name": "The Lords Inn Somnath",
+        "description": "Premium modern hotel overlooking the sea near the Somnath Temple.",
+        "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+        "rating": 4.3,
+        "price_per_night": 4500,
+        "amenities": [
+          "Pool",
+          "Sea View",
+          "Pure Veg Restaurant",
+          "WiFi"
+        ],
+        "address": "Somnath Bypass Road, Somnath",
+        "latitude": 20.899,
+        "longitude": 70.415
+      }
+    ],
+    "vadodara": [
+      {
+        "name": "Grand Mercure Vadodara",
+        "description": "Upscale hotel set in the cultural heart of the city.",
+        "image_url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80",
+        "rating": 4.5,
+        "price_per_night": 5500,
+        "amenities": [
+          "Gym",
+          "Spa",
+          "Lounge",
+          "WiFi"
+        ],
+        "address": "Sayajigunj, Vadodara",
+        "latitude": 22.312,
+        "longitude": 73.183
+      }
+    ],
+    "surat": [
+      {
+        "name": "The Gateway Hotel Athwalines",
+        "description": "Premium waterfront hotel offering gorgeous views of the Tapi River.",
+        "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80",
+        "rating": 4.6,
+        "price_per_night": 7000,
+        "amenities": [
+          "Pool",
+          "Gym",
+          "River View",
+          "Fine Dining"
+        ],
+        "address": "Athwalines, Surat",
+        "latitude": 21.168,
+        "longitude": 72.795
+      }
+    ],
+    "saputara": [
+      {
+        "name": "Patang Residency",
+        "description": "Cozy hill retreat overlooking the beautiful Saputara Lake.",
+        "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80",
+        "rating": 4.2,
+        "price_per_night": 5000,
+        "amenities": [
+          "Lake View",
+          "AC",
+          "Play Area",
+          "Restaurant"
+        ],
+        "address": "Lake Road, Saputara",
+        "latitude": 20.578,
+        "longitude": 73.748
+      }
+    ],
+    "kevadia": [
+      {
+        "name": "Tent City 1 Narmada",
+        "description": "Luxurious glamping tents on the banks of Narmada near Statue of Unity.",
+        "image_url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&q=80",
+        "rating": 4.7,
+        "price_per_night": 10000,
+        "amenities": [
+          "River view",
+          "Cultural Activities",
+          "All Veg Meals",
+          "Pool"
+        ],
+        "address": "Dyke 4, Kevadia",
+        "latitude": 21.842,
+        "longitude": 73.685
+      }
+    ],
+    "bhuj": [
+      {
+        "name": "Regenta Resort Bhuj",
+        "description": "Resort showcasing Kutchi heritage architecture and high-end services.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.4,
+        "price_per_night": 5500,
+        "amenities": [
+          "Pool",
+          "Gym",
+          "Kutchi Theme Rooms",
+          "Veg Food"
+        ],
+        "address": "Mirjapar Highway, Bhuj",
+        "latitude": 23.235,
+        "longitude": 69.635
+      }
+    ],
+    "junagadh": [
+      {
+        "name": "The Belvedre Tourist Home",
+        "description": "Comfortable heritage stay right at the foothills of Girnar.",
+        "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80",
+        "rating": 3.9,
+        "price_per_night": 2500,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Kathiyawadi Food",
+          "Trekking Guide"
+        ],
+        "address": "Girnar Taleti Road, Junagadh",
+        "latitude": 21.528,
+        "longitude": 70.478
+      }
+    ],
+    "rajkot": [
+      {
+        "name": "The Fern Residency Rajkot",
+        "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+        "description": "Eco-friendly business hotel with modern comforts.",
+        "rating": 4.4,
+        "price_per_night": 4000,
+        "amenities": [
+          "Gym",
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Kanak Road, Rajkot",
+        "latitude": 22.3015,
+        "longitude": 70.801
+      }
+    ],
+    "gandhinagar": [
+      {
+        "name": "The Leela Gandhinagar",
+        "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80",
+        "description": "Ultra-luxury hotel built directly above the Gandhinagar Capital railway station.",
+        "rating": 4.8,
+        "price_per_night": 9000,
+        "amenities": [
+          "Spa",
+          "Pool",
+          "Gym",
+          "Fine Dining"
+        ],
+        "address": "Sector 14, Gandhinagar",
+        "latitude": 23.2325,
+        "longitude": 72.635
+      }
+    ],
+    "bhavnagar": [
+      {
+        "name": "Nilambag Palace Hotel",
+        "image_url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&q=80",
+        "description": "Heritage palace hotel showing 19th-century royal lifestyle.",
+        "rating": 4.3,
+        "price_per_night": 6000,
+        "amenities": [
+          "Pool",
+          "Heritage Walk",
+          "Restaurant",
+          "Gym"
+        ],
+        "address": "Nilambag, Bhavnagar",
+        "latitude": 21.758,
+        "longitude": 72.148
+      }
+    ],
+    "jamnagar": [
+      {
+        "name": "Hotel Sayaji Jamnagar",
+        "image_url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80",
+        "description": "Premium luxury hotel with great dining options in central Jamnagar.",
+        "rating": 4.5,
+        "price_per_night": 5000,
+        "amenities": [
+          "Rooftop Restaurant",
+          "Gym",
+          "WiFi",
+          "AC"
+        ],
+        "address": "Super Market Area, Jamnagar",
+        "latitude": 22.469,
+        "longitude": 70.06
+      }
+    ],
+    "porbandar": [
+      {
+        "name": "Lords Inn Porbandar",
+        "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80",
+        "description": "Premium sea-facing hotel near Chowpatty Beach.",
+        "rating": 4.2,
+        "price_per_night": 3500,
+        "amenities": [
+          "Sea View",
+          "WiFi",
+          "Restaurant",
+          "AC"
+        ],
+        "address": "Chowpatty Road, Porbandar",
+        "latitude": 21.6425,
+        "longitude": 69.598
+      }
+    ],
+    "patan": [
+      {
+        "name": "Hotel Apple Patan",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "description": "Comfortable mid-range stay near Rani ki Vav stepwell.",
+        "rating": 4.0,
+        "price_per_night": 2500,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Chanasma Highway, Patan",
+        "latitude": 23.839,
+        "longitude": 72.115
+      }
+    ],
+    "modhera": [
+      {
+        "name": "Sun Temple Homestay",
+        "image_url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&q=80",
+        "description": "Traditional local homestay experience with home-cooked Gujarati food.",
+        "rating": 4.5,
+        "price_per_night": 1800,
+        "amenities": [
+          "Gujarati Food",
+          "AC",
+          "WiFi"
+        ],
+        "address": "Near Sun Temple, Modhera",
+        "latitude": 23.585,
+        "longitude": 72.132
+      }
+    ],
+    "champaner": [
+      {
+        "name": "Champaner Heritage Resort",
+        "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80",
+        "description": "Beautiful orchard resort at the foothills of Pavagadh.",
+        "rating": 4.6,
+        "price_per_night": 5500,
+        "amenities": [
+          "Pool",
+          "Orchard Tour",
+          "Restaurant",
+          "AC"
+        ],
+        "address": "Halol Road, Champaner",
+        "latitude": 22.482,
+        "longitude": 73.542
+      }
+    ],
+    "anand": [
+      {
+        "name": "Madhav Residency Anand",
+        "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80",
+        "description": "Modern comfortable stay near Amul Dairy complex.",
+        "rating": 4.1,
+        "price_per_night": 3000,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Amul Dairy Road, Anand",
+        "latitude": 22.565,
+        "longitude": 72.932
+      }
+    ],
+    "morbi": [
+      {
+        "name": "The Grand Imperial Morbi",
+        "description": "Premium business hotel with excellent amenities and modern rooms in the ceramic hub.",
+        "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+        "rating": 4.3,
+        "price_per_night": 3800,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant",
+          "Gym"
+        ],
+        "address": "Lati Road, Morbi",
+        "latitude": 22.815,
+        "longitude": 70.822
+      }
+    ],
+    "bharuch": [
+      {
+        "name": "Regenta Central Hestia Bharuch",
+        "description": "Upscale contemporary hotel ideal for business and leisure travelers near Narmada.",
+        "image_url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80",
+        "rating": 4.4,
+        "price_per_night": 4200,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Pool",
+          "Restaurant"
+        ],
+        "address": "Shalimar Complex, Bharuch",
+        "latitude": 21.711,
+        "longitude": 72.991
+      }
+    ],
+    "valsad": [
+      {
+        "name": "Hotel Tithal Beach Resort",
+        "description": "Beautiful beachside resort offering gorgeous views of the Arabian Sea and black sands.",
+        "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80",
+        "rating": 4.1,
+        "price_per_night": 3200,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Beach Access",
+          "Restaurant"
+        ],
+        "address": "Tithal Beach Road, Valsad",
+        "latitude": 20.601,
+        "longitude": 72.902
+      }
+    ],
+    "navsari": [
+      {
+        "name": "Royal Regency Navsari",
+        "description": "Comfortable hotel with modern amenities near historic Dandi route.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.0,
+        "price_per_night": 2800,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Near Railway Station, Navsari",
+        "latitude": 20.949,
+        "longitude": 72.931
+      }
+    ],
+    "palanpur": [
+      {
+        "name": "Balaram Palace Resort",
+        "description": "Heritage palace hotel set amidst the Aravali hills offering royal stays.",
+        "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80",
+        "rating": 4.6,
+        "price_per_night": 6500,
+        "amenities": [
+          "Heritage",
+          "Pool",
+          "Garden",
+          "AC"
+        ],
+        "address": "Chitrasani, Palanpur",
+        "latitude": 24.225,
+        "longitude": 72.505
+      }
+    ],
+    "himmatnagar": [
+      {
+        "name": "Hotel Dowlat Villas Palace",
+        "description": "Heritage homestay showing royal Rajput hospitality near Polo Forest.",
+        "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80",
+        "rating": 4.5,
+        "price_per_night": 4500,
+        "amenities": [
+          "Heritage",
+          "WiFi",
+          "AC",
+          "Traditional Food"
+        ],
+        "address": "Mahavirnagar, Himmatnagar",
+        "latitude": 23.601,
+        "longitude": 72.969
+      }
+    ],
+    "nadiad": [
+      {
+        "name": "Boulevard 9 Luxury Resort",
+        "description": "Premium resort with excellent dining and recreation facilities in Nadiad.",
+        "image_url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80",
+        "rating": 4.4,
+        "price_per_night": 5000,
+        "amenities": [
+          "Pool",
+          "Spa",
+          "Gym",
+          "WiFi",
+          "AC"
+        ],
+        "address": "Nadiad Bypass, Nadiad",
+        "latitude": 22.685,
+        "longitude": 72.859
+      }
+    ],
+    "amreli": [
+      {
+        "name": "Angel Lords Eco Inn",
+        "description": "Eco-friendly comfortable stay ideal for wildlife travelers.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 3.9,
+        "price_per_night": 2800,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Vegetarian Food"
+        ],
+        "address": "Station Road, Amreli",
+        "latitude": 21.609,
+        "longitude": 71.219
+      }
+    ],
+    "surendranagar": [
+      {
+        "name": "President Hotel Surendranagar",
+        "description": "Modern comfortable business hotel in the heart of the city.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.0,
+        "price_per_night": 2700,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Mulchand Road, Surendranagar",
+        "latitude": 22.729,
+        "longitude": 71.631
+      }
+    ],
+    "vyara": [
+      {
+        "name": "Tapi Riverside Retreat",
+        "description": "Scenic nature retreat on the banks of Tapi river with peaceful views.",
+        "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80",
+        "rating": 4.2,
+        "price_per_night": 3500,
+        "amenities": [
+          "Nature view",
+          "Pool",
+          "AC",
+          "WiFi"
+        ],
+        "address": "Songadh Road, Vyara",
+        "latitude": 21.135,
+        "longitude": 73.402
+      }
+    ],
+    "dahod": [
+      {
+        "name": "Hotel Asopalav Dahod",
+        "description": "Budget-friendly clean stay with basic modern amenities.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 3.8,
+        "price_per_night": 2200,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Godhra Road, Dahod",
+        "latitude": 22.842,
+        "longitude": 74.252
+      }
+    ],
+    "godhra": [
+      {
+        "name": "Hotel Natraj Godhra",
+        "description": "Centrally located comfortable business hotel with traditional hospitality.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 3.9,
+        "price_per_night": 2400,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Vegetarian Restaurant"
+        ],
+        "address": "Station Road, Godhra",
+        "latitude": 22.779,
+        "longitude": 73.611
+      }
+    ],
+    "botad": [
+      {
+        "name": "Salangpur Darshan Guest House",
+        "description": "Clean guest house offering peaceful stays close to Hanumanji Temple.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.2,
+        "price_per_night": 1800,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Close to Temple"
+        ],
+        "address": "Salangpur Temple Road, Botad",
+        "latitude": 22.189,
+        "longitude": 71.761
+      }
+    ],
+    "chhota_udaipur": [
+      {
+        "name": "Kusum Vilas Heritage Palace",
+        "description": "Stay in a wing of the majestic Kusum Vilas Palace with royal ambiance.",
+        "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80",
+        "rating": 4.5,
+        "price_per_night": 5000,
+        "amenities": [
+          "Heritage Tour",
+          "Pool",
+          "Traditional Meals",
+          "AC"
+        ],
+        "address": "Palace Compound, Chhota Udaipur",
+        "latitude": 22.312,
+        "longitude": 74.009
+      }
+    ],
+    "lunawada": [
+      {
+        "name": "Mahisagar Hills Resort",
+        "description": "Comfortable nature resort surrounded by green valleys near Panam Dam.",
+        "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80",
+        "rating": 4.0,
+        "price_per_night": 3200,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Nature trails",
+          "Restaurant"
+        ],
+        "address": "Panam Dam Road, Lunawada",
+        "latitude": 23.151,
+        "longitude": 73.621
+      }
+    ],
+    "modasa": [
+      {
+        "name": "The Aravalli Inn Modasa",
+        "description": "Modern comfortable stay with convenient access to commercial areas.",
+        "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80",
+        "rating": 4.1,
+        "price_per_night": 2600,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Restaurant"
+        ],
+        "address": "Shamalaji Road, Modasa",
+        "latitude": 23.479,
+        "longitude": 73.292
+      }
+    ]
+  },
+  "attractions": {
+    "ahmedabad": [
+      {
+        "name": "Sabarmati Ashram",
+        "description": "The serene home of Mahatma Gandhi, located on the tranquil banks of the Sabarmati River.",
+        "image_url": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80",
+        "category": "Historical",
+        "entry_fee": 0,
+        "timings": "8:30 AM - 6:30 PM",
+        "latitude": 23.0605,
+        "longitude": 72.5784
+      },
+      {
+        "name": "Adalaj Stepwell",
+        "description": "A stunning 5-story deep octagonal stepwell showcasing unique Hindu-Islamic architecture and stone carvings.",
+        "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80",
+        "category": "Architecture",
+        "entry_fee": 20,
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 23.1666,
+        "longitude": 72.5794
+      }
+    ],
+    "kutch": [
+      {
+        "name": "Kalo Dungar (Black Hill)",
+        "description": "The highest point in Kutch offering sweeping panoramic views of the entire White Salt Desert and Indo-Pak border.",
+        "image_url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80",
+        "category": "Nature / Scenic",
+        "entry_fee": 100,
+        "timings": "6:00 AM - 6:00 PM",
+        "latitude": 23.9482,
+        "longitude": 69.8157
+      }
+    ],
+    "gir": [
+      {
+        "name": "Sasan Gir Safari Tour",
+        "description": "Open jeep safari through the dense forest to witness Asiatic Lions in their natural habitat.",
+        "image_url": "https://images.unsplash.com/photo-1602491453977-18a36d3a24fb?auto=format&fit=crop&q=80",
+        "category": "Wildlife",
+        "entry_fee": 800,
+        "timings": "6:00 AM - 5:00 PM (Slots)",
+        "latitude": 21.1243,
+        "longitude": 70.8242
+      }
+    ],
+    "dwarka": [
+      {
+        "name": "Dwarkadhish Temple",
+        "description": "A magnificent 2500-year-old temple dedicated to Lord Krishna, boasting intricate architecture and massive flag.",
+        "image_url": "https://images.unsplash.com/photo-1627894483216-2138af692e27?auto=format&fit=crop&q=80",
+        "category": "Religious",
+        "entry_fee": 0,
+        "timings": "6:30 AM - 9:30 PM",
+        "latitude": 22.2442,
+        "longitude": 68.9684
+      },
+      {
+        "name": "Shivrajpur Beach",
+        "description": "A beautiful blue-flag beach offering pristine crystal clear waters, soft sand, and thrilling scuba diving.",
+        "image_url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&q=80",
+        "category": "Beach / Adventure",
+        "entry_fee": 20,
+        "timings": "8:00 AM - 7:00 PM",
+        "latitude": 22.3328,
+        "longitude": 68.9502
+      }
+    ],
+    "somnath": [
+      {
+        "name": "Somnath Shore Temple",
+        "description": "Ancient seashore shrine and Jyotirlinga, built in grand Chalukya architecture style.",
+        "image_url": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80",
+        "category": "Religious",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 9:30 PM",
+        "latitude": 20.888,
+        "longitude": 70.4012
+      }
+    ],
+    "vadodara": [
+      {
+        "name": "Laxmi Vilas Palace",
+        "description": "A stunning royal residence four times the size of Buckingham Palace, showcasing Indo-Saracenic design.",
+        "image_url": "https://images.unsplash.com/photo-1607587010323-b1e7795fb42d?auto=format&fit=crop&q=80",
+        "category": "Palace / Heritage",
+        "entry_fee": 200,
+        "timings": "9:30 AM - 5:00 PM",
+        "latitude": 22.2936,
+        "longitude": 73.1895
+      }
+    ],
+    "surat": [
+      {
+        "name": "Dumas Beach",
+        "description": "A beautiful black-sand beach located along the Arabian Sea, famous for its scenic sunset and bhajiya stalls.",
+        "image_url": "https://images.unsplash.com/photo-1618788372246-79faff0c3742?auto=format&fit=crop&q=80",
+        "category": "Beach",
+        "entry_fee": 0,
+        "timings": "24 Hours",
+        "latitude": 21.0772,
+        "longitude": 72.709
+      }
+    ],
+    "saputara": [
+      {
+        "name": "Saputara Lake & Cable Car",
+        "description": "A peaceful lake in the center of the hill station offering boating and cable car rides to Sunset Point.",
+        "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80",
+        "category": "Nature",
+        "entry_fee": 100,
+        "timings": "9:00 AM - 6:00 PM",
+        "latitude": 20.5794,
+        "longitude": 73.7494
+      }
+    ],
+    "kevadia": [
+      {
+        "name": "Statue of Unity Viewing Gallery",
+        "description": "Viewing gallery situated inside the chest of the monument, offering panoramic views of Narmada Dam.",
+        "image_url": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&q=80",
+        "category": "Monument",
+        "entry_fee": 380,
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 21.838,
+        "longitude": 73.7191
+      }
+    ],
+    "bhuj": [
+      {
+        "name": "Prag Mahal & Aina Mahal",
+        "description": "Beautiful 19th-century palaces showcasing European gothic style and exquisite mirror walls.",
+        "image_url": "https://images.unsplash.com/photo-1590766940554-634c4e5bf8a1?auto=format&fit=crop&q=80",
+        "category": "Palace",
+        "entry_fee": 50,
+        "timings": "9:00 AM - 5:30 PM",
+        "latitude": 23.242,
+        "longitude": 69.6669
+      }
+    ],
+    "junagadh": [
+      {
+        "name": "Uparkot Fort",
+        "description": "An ancient hilltop fort dating back to Maurya empire, featuring deep stepwells and Buddhist caves.",
+        "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80",
+        "category": "Fort / Archeology",
+        "entry_fee": 25,
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 21.5245,
+        "longitude": 70.4705
+      }
+    ],
+    "rajkot": [
+      {
+        "name": "Watson Museum",
+        "image_url": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?auto=format&fit=crop&q=80",
+        "description": "Displays rare artifacts, coins, and history of Saurashtra region.",
+        "category": "Museum",
+        "entry_fee": 10,
+        "timings": "9:00 AM - 5:00 PM",
+        "latitude": 22.3025,
+        "longitude": 70.8035
+      }
+    ],
+    "gandhinagar": [
+      {
+        "name": "Akshardham Temple",
+        "image_url": "https://images.unsplash.com/photo-1564507592937-25994a9015b2?auto=format&fit=crop&q=80",
+        "description": "Magnificent cultural temple complex with laser shows and gardens.",
+        "category": "Religious",
+        "entry_fee": 0,
+        "timings": "9:30 AM - 7:30 PM",
+        "latitude": 23.2185,
+        "longitude": 72.639
+      }
+    ],
+    "bhavnagar": [
+      {
+        "name": "Palitana Jain Temples",
+        "image_url": "https://images.unsplash.com/photo-1602643163983-ed0babc39797?auto=format&fit=crop&q=80",
+        "description": "Over 800 marble temples on Shatrunjaya hill, a sacred climb.",
+        "category": "Religious / Trek",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 6:00 PM",
+        "latitude": 21.493,
+        "longitude": 71.841
+      }
+    ],
+    "jamnagar": [
+      {
+        "name": "Lakhota Fort & Palace Museum",
+        "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80",
+        "description": "Historic lake-palace with arms, murals, and lake views.",
+        "category": "Museum / Palace",
+        "entry_fee": 50,
+        "timings": "10:30 AM - 6:00 PM",
+        "latitude": 22.47,
+        "longitude": 70.0635
+      }
+    ],
+    "porbandar": [
+      {
+        "name": "Kirti Mandir",
+        "image_url": "https://images.unsplash.com/photo-1545128485-c400e7702796?auto=format&fit=crop&q=80",
+        "description": "The ancestral house and memorial birthplace of Mahatma Gandhi.",
+        "category": "Historical",
+        "entry_fee": 0,
+        "timings": "7:30 AM - 7:00 PM",
+        "latitude": 21.642,
+        "longitude": 69.605
+      }
+    ],
+    "patan": [
+      {
+        "name": "Rani ki Vav Stepwell",
+        "image_url": "https://images.unsplash.com/photo-1626245917457-36bd2de5c7d0?auto=format&fit=crop&q=80",
+        "description": "Breathtaking subterranean stepwell covered in fine historic carvings.",
+        "category": "UNESCO / Heritage",
+        "entry_fee": 40,
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 23.858,
+        "longitude": 72.102
+      }
+    ],
+    "modhera": [
+      {
+        "name": "Sun Temple",
+        "image_url": "https://images.unsplash.com/photo-1601579621376-78cde726b27e?auto=format&fit=crop&q=80",
+        "description": "Stunning 11th-century Solanki temple dedicated to the Sun God.",
+        "category": "Temple / Architecture",
+        "entry_fee": 25,
+        "timings": "7:00 AM - 6:00 PM",
+        "latitude": 23.5835,
+        "longitude": 72.133
+      }
+    ],
+    "champaner": [
+      {
+        "name": "Jami Masjid Champaner",
+        "image_url": "https://images.unsplash.com/photo-1564507592937-25994a9015b2?auto=format&fit=crop&q=80",
+        "description": "Beautiful historic mosque representing high architectural synthesis.",
+        "category": "UNESCO / Historic",
+        "entry_fee": 30,
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 22.4655,
+        "longitude": 73.535
+      }
+    ],
+    "anand": [
+      {
+        "name": "Amul Dairy Museum",
+        "image_url": "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&q=80",
+        "description": "Showcases the history of Amul and the white revolution of India.",
+        "category": "Museum",
+        "entry_fee": 0,
+        "timings": "2:00 PM - 4:00 PM",
+        "latitude": 22.563,
+        "longitude": 72.93
+      }
+    ],
+    "morbi": [
+      {
+        "name": "Mani Mandir",
+        "description": "A stunning stone temple representing historical love and intricate royal carvings.",
+        "image_url": "https://images.unsplash.com/photo-1627894483216-2138af692e27?auto=format&fit=crop&q=80",
+        "category": "Heritage",
+        "entry_fee": 20,
+        "timings": "9:00 AM - 6:00 PM",
+        "latitude": 22.822,
+        "longitude": 70.828
+      }
+    ],
+    "bharuch": [
+      {
+        "name": "Golden Bridge",
+        "description": "A historic British-era iron bridge spanning across the wide Narmada River.",
+        "image_url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&q=80",
+        "category": "Historical",
+        "entry_fee": 0,
+        "timings": "24 Hours",
+        "latitude": 21.725,
+        "longitude": 72.975
+      }
+    ],
+    "valsad": [
+      {
+        "name": "Tithal Beach & Sai Baba Temple",
+        "description": "Prinstine black sand beach with a beautiful temple right on the seashore.",
+        "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80",
+        "category": "Beach / Religious",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 8:00 PM",
+        "latitude": 20.592,
+        "longitude": 72.898
+      }
+    ],
+    "navsari": [
+      {
+        "name": "Dandi National Salt Satyagraha Memorial",
+        "description": "Historic monument dedicated to Mahatma Gandhi's famous 1930 salt march.",
+        "image_url": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&q=80",
+        "category": "Historical",
+        "entry_fee": 10,
+        "timings": "9:00 AM - 6:00 PM",
+        "latitude": 20.892,
+        "longitude": 72.798
+      }
+    ],
+    "palanpur": [
+      {
+        "name": "Jessore Sloth Bear Sanctuary",
+        "description": "Protected forest area in the Aravali hills home to leopards, sloth bears, and unique birds.",
+        "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+        "category": "Wildlife / Nature",
+        "entry_fee": 150,
+        "timings": "8:00 AM - 5:00 PM",
+        "latitude": 24.382,
+        "longitude": 72.525
+      }
+    ],
+    "himmatnagar": [
+      {
+        "name": "Polo Forest Ruins",
+        "description": "Vibrant medieval Jain and Hindu temple ruins hidden deep inside the scenic Polo forest.",
+        "image_url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80",
+        "category": "Heritage / Nature",
+        "entry_fee": 0,
+        "timings": "8:00 AM - 5:00 PM",
+        "latitude": 23.992,
+        "longitude": 73.221
+      }
+    ],
+    "nadiad": [
+      {
+        "name": "Santram Mandir",
+        "description": "A deeply revered, spiritual temple complex famous for its peaceful atmosphere and social service.",
+        "image_url": "https://images.unsplash.com/photo-1627894483216-2138af692e27?auto=format&fit=crop&q=80",
+        "category": "Religious",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 9:00 PM",
+        "latitude": 22.688,
+        "longitude": 72.868
+      }
+    ],
+    "amreli": [
+      {
+        "name": "Kamnath Mahadev Temple & Kund",
+        "description": "Ancient temple dedicated to Lord Shiva with a huge scenic bathing tank.",
+        "image_url": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80",
+        "category": "Religious",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 8:30 PM",
+        "latitude": 21.615,
+        "longitude": 71.229
+      }
+    ],
+    "surendranagar": [
+      {
+        "name": "Tarnetar Temple",
+        "description": "Ancient Shiva temple famous for hosting the colorful Tarnetar Fair representing regional folk arts.",
+        "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80",
+        "category": "Religious / Heritage",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 7:00 PM",
+        "latitude": 22.485,
+        "longitude": 71.258
+      }
+    ],
+    "vyara": [
+      {
+        "name": "Tapi Forest Trail & Waterfalls",
+        "description": "Scenic green trails and seasonal waterfalls in the tribal forest region.",
+        "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80",
+        "category": "Nature",
+        "entry_fee": 20,
+        "timings": "8:00 AM - 5:00 PM",
+        "latitude": 21.092,
+        "longitude": 73.498
+      }
+    ],
+    "dahod": [
+      {
+        "name": "Aurangzeb Birthplace Memorial",
+        "description": "Historic fortress ruins marking the birthplace of the Mughal Emperor Aurangzeb.",
+        "image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80",
+        "category": "Historical",
+        "entry_fee": 0,
+        "timings": "9:00 AM - 5:00 PM",
+        "latitude": 22.835,
+        "longitude": 74.249
+      }
+    ],
+    "godhra": [
+      {
+        "name": "Kanelav Lake & Park",
+        "description": "A beautiful scenic lake in the center of Godhra offering boating and gardens.",
+        "image_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80",
+        "category": "Nature / Recreation",
+        "entry_fee": 10,
+        "timings": "9:00 AM - 8:00 PM",
+        "latitude": 22.782,
+        "longitude": 73.621
+      }
+    ],
+    "botad": [
+      {
+        "name": "Salangpur Hanumanji Temple",
+        "description": "One of the most famous and powerful temples of Lord Hanuman, boasting a massive bronze statue.",
+        "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&q=80",
+        "category": "Religious",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 9:00 PM",
+        "latitude": 22.181,
+        "longitude": 71.765
+      }
+    ],
+    "chhota_udaipur": [
+      {
+        "name": "Tribal Museum",
+        "description": "Showcases the fascinating cultural heritage, tools, dress, and art of the Rathwa tribes.",
+        "image_url": "https://images.unsplash.com/photo-1598370701047-97592cfdf1f2?auto=format&fit=crop&q=80",
+        "category": "Museum",
+        "entry_fee": 10,
+        "timings": "10:30 AM - 5:00 PM",
+        "latitude": 22.308,
+        "longitude": 74.015
+      }
+    ],
+    "lunawada": [
+      {
+        "name": "Panam Dam",
+        "description": "A massive engineering marvel built on the Panam River offering gorgeous water views.",
+        "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80",
+        "category": "Nature / Scenic",
+        "entry_fee": 0,
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 23.182,
+        "longitude": 73.655
+      }
+    ],
+    "modasa": [
+      {
+        "name": "Shamalaji Sun Temple",
+        "description": "An ancient temple dedicated to Lord Vishnu and Sun God situated near Aravalli hills.",
+        "image_url": "https://images.unsplash.com/photo-1516690561799-46d8f74f90f6?auto=format&fit=crop&q=80",
+        "category": "Religious / Heritage",
+        "entry_fee": 0,
+        "timings": "6:00 AM - 8:00 PM",
+        "latitude": 23.682,
+        "longitude": 73.342
+      }
+    ]
+  },
+  "shopping": {
+    "ahmedabad": [
+      {
+        "name": "Law Garden Night Market",
+        "description": "Vibrant street market famous for traditional chaniya cholis, embroidered handicrafts, and costume jewelry.",
+        "image_url": "https://images.unsplash.com/photo-1604923517951-d293af28f553?auto=format&fit=crop&q=80",
+        "address": "Ellisbridge, Ahmedabad",
+        "timings": "6:00 PM - 11:30 PM",
+        "latitude": 23.0256,
+        "longitude": 72.5615
+      }
+    ],
+    "kutch": [
+      {
+        "name": "Bhujodi Handicraft Village",
+        "description": "A historic village of weavers where you can buy gorgeous handwoven shawls, blankets, and Kutchi embroidery direct from artisans.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Bhujodi, Kutch",
+        "timings": "9:30 AM - 7:00 PM",
+        "latitude": 23.2384,
+        "longitude": 69.729
+      }
+    ],
+    "gir": [
+      {
+        "name": "Sasan Gir Mango Markets",
+        "description": "Local stalls selling world-famous sweet Gir Kesar Mangoes during summer season.",
+        "image_url": "https://images.unsplash.com/photo-1604923517951-d293af28f553?auto=format&fit=crop&q=80",
+        "address": "Sasan Gir Village Road",
+        "timings": "8:00 AM - 8:00 PM",
+        "latitude": 21.156,
+        "longitude": 70.584
+      }
+    ],
+    "dwarka": [
+      {
+        "name": "Dwarka Bazaar",
+        "description": "Market lanes selling devotional items, brass Krishna idols, and traditional Bandhani textiles.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Main Temple Road, Dwarka",
+        "timings": "9:00 AM - 9:00 PM",
+        "latitude": 22.2435,
+        "longitude": 68.969
+      }
+    ],
+    "somnath": [
+      {
+        "name": "Somnath Temple Arcade",
+        "description": "Local shops selling sea-shell crafts, religious souvenirs, and coconut items.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Temple Exit Road, Somnath",
+        "timings": "7:00 AM - 9:00 PM",
+        "latitude": 20.8885,
+        "longitude": 70.402
+      }
+    ],
+    "vadodara": [
+      {
+        "name": "Mandvi Market",
+        "description": "Historic bazaar famous for ethnic silver jewelry and traditional Gujarati bridal wear.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Mandvi, Vadodara",
+        "timings": "11:00 AM - 9:00 PM",
+        "latitude": 22.3,
+        "longitude": 73.201
+      }
+    ],
+    "surat": [
+      {
+        "name": "Surat Textile Market",
+        "description": "A massive hub of wholesale sari and salwar suit trading, offering Bandhani and silk.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Ring Road, Surat",
+        "timings": "10:30 AM - 8:30 PM",
+        "latitude": 21.189,
+        "longitude": 72.843
+      }
+    ],
+    "saputara": [
+      {
+        "name": "Dangi Craft Emporium",
+        "description": "Handicrafts made by local tribal communities, including bamboo crafts and warli art.",
+        "image_url": "https://images.unsplash.com/photo-1604923517951-d293af28f553?auto=format&fit=crop&q=80",
+        "address": "Central Shopping Center, Saputara",
+        "timings": "10:00 AM - 7:00 PM",
+        "latitude": 20.579,
+        "longitude": 73.749
+      }
+    ],
+    "kevadia": [
+      {
+        "name": "Ekta Mall",
+        "description": "A diverse marketplace displaying handicrafts from various states across India under one roof.",
+        "image_url": "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&q=80",
+        "address": "Kevadia Tourist Zone",
+        "timings": "10:00 AM - 9:00 PM",
+        "latitude": 21.844,
+        "longitude": 73.692
+      }
+    ],
+    "bhuj": [
+      {
+        "name": "Shroff Bazaar",
+        "description": "Famed for tie-dye bandhani sarees, silver tribal jewelry, and hand-blocked Ajrakh fabrics.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Central Bhuj",
+        "timings": "10:00 AM - 8:00 PM",
+        "latitude": 23.243,
+        "longitude": 69.668
+      }
+    ],
+    "junagadh": [
+      {
+        "name": "Zanzarda Road Bazaar",
+        "description": "Local markets offering Junagadh's famous sweet pedas and traditional hand-loomed goods.",
+        "image_url": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&q=80",
+        "address": "Zanzarda Road, Junagadh",
+        "timings": "10:00 AM - 9:00 PM",
+        "latitude": 21.52,
+        "longitude": 70.448
+      }
+    ],
+    "rajkot": [
+      {
+        "name": "Gundawadi Market",
+        "image_url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80",
+        "description": "Famous for bandhani dress materials and local gold work.",
+        "address": "Gundawadi, Rajkot",
+        "timings": "10:00 AM - 9:00 PM",
+        "latitude": 22.298,
+        "longitude": 70.803
+      }
+    ],
+    "gandhinagar": [
+      {
+        "name": "Sector 21 Shopping Arcade",
+        "image_url": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80",
+        "description": "Local shopping market for garments and handicraft items.",
+        "address": "Sector 21, Gandhinagar",
+        "timings": "10:00 AM - 8:30 PM",
+        "latitude": 23.221,
+        "longitude": 72.632
+      }
+    ],
+    "bhavnagar": [
+      {
+        "name": "Haluria Chowk Bazaar",
+        "image_url": "https://images.unsplash.com/photo-1513553404607-988bf2703777?auto=format&fit=crop&q=80",
+        "description": "Lively local market selling clay crafts, handlooms, and sweets.",
+        "address": "Haluria Chowk, Bhavnagar",
+        "timings": "10:00 AM - 9:00 PM",
+        "latitude": 21.762,
+        "longitude": 72.149
+      }
+    ],
+    "jamnagar": [
+      {
+        "name": "Chandi Bazaar",
+        "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80",
+        "description": "Famous for purchasing gorgeous silver jewelry and traditional bandhani tie-dyes.",
+        "address": "Chandi Bazaar, Jamnagar",
+        "timings": "11:00 AM - 8:00 PM",
+        "latitude": 22.471,
+        "longitude": 70.059
+      }
+    ],
+    "porbandar": [
+      {
+        "name": "Sudama Chowk Market",
+        "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&q=80",
+        "description": "Local hub for regional cotton fabrics and sea-shell decorative items.",
+        "address": "Sudama Chowk, Porbandar",
+        "timings": "10:00 AM - 9:00 PM",
+        "latitude": 21.6415,
+        "longitude": 69.608
+      }
+    ],
+    "patan": [
+      {
+        "name": "Patola Weaving Center",
+        "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80",
+        "description": "Buy authentic double-ikat Patola silk saris directly from the Salvi family weavers.",
+        "address": "Salvi Wada, Patan",
+        "timings": "10:00 AM - 6:00 PM",
+        "latitude": 23.851,
+        "longitude": 72.124
+      }
+    ],
+    "modhera": [
+      {
+        "name": "Local Handicraft Stalls",
+        "image_url": "https://images.unsplash.com/photo-1561542320-9a18cd340469?auto=format&fit=crop&q=80",
+        "description": "Stalls near temple selling local copper items and textile prints.",
+        "address": "Temple Approach Road, Modhera",
+        "timings": "8:00 AM - 6:00 PM",
+        "latitude": 23.582,
+        "longitude": 72.134
+      }
+    ],
+    "champaner": [
+      {
+        "name": "Pavagadh Foothill Markets",
+        "image_url": "https://images.unsplash.com/photo-1505330622279-bf7d7fc9d8f4?auto=format&fit=crop&q=80",
+        "description": "Shops offering religious items, local metal work, and prints.",
+        "address": "Pavagadh Foothills",
+        "timings": "7:00 AM - 8:00 PM",
+        "latitude": 22.463,
+        "longitude": 73.538
+      }
+    ],
+    "anand": [
+      {
+        "name": "Amul Parlour & Gift Hub",
+        "image_url": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80",
+        "description": "Purchase fresh Amul chocolates, cheese, and milk sweets direct from source.",
+        "address": "Amul Campus, Anand",
+        "timings": "9:00 AM - 9:00 PM",
+        "latitude": 22.564,
+        "longitude": 72.929
+      }
+    ]
+  },
+  "transport": {
+    "ahmedabad": [
+      {
+        "type": "flight",
+        "name": "Sardar Vallabhbhai Patel International Airport",
+        "description": "Serves national and international flights.",
+        "from_location": "Mumbai/Delhi/Bangalore",
+        "to_location": "Ahmedabad",
+        "duration": "1.5 hours",
+        "price_range": "₹3,000 - ₹8,000",
+        "frequency": "Multiple daily"
+      },
+      {
+        "type": "train",
+        "name": "Ahmedabad Junction (Kalupur)",
+        "description": "Key superfast train connectivity.",
+        "from_location": "Mumbai/Delhi",
+        "to_location": "Ahmedabad",
+        "duration": "6-8 hours",
+        "price_range": "₹500 - ₹2,000",
+        "frequency": "Hourly"
+      },
+      {
+        "type": "local",
+        "name": "Ahmedabad BRTS Bus",
+        "description": "Dedicated bus corridor connecting the entire city.",
+        "from_location": "Within Ahmedabad",
+        "to_location": "All areas",
+        "duration": "Varies",
+        "price_range": "₹5 - ₹35",
+        "frequency": "Every 5 mins"
+      }
+    ],
+    "kutch": [
+      {
+        "type": "train",
+        "name": "Bhuj Railway Station",
+        "description": "Nearest railway hub to the white desert.",
+        "from_location": "Ahmedabad",
+        "to_location": "Bhuj",
+        "duration": "6 hours",
+        "price_range": "₹200 - ₹1,000",
+        "frequency": "Daily trains"
+      },
+      {
+        "type": "bus",
+        "name": "GSRTC Sleeper Bus",
+        "description": "State transport overnight luxury buses.",
+        "from_location": "Ahmedabad/Rajkot",
+        "to_location": "Bhuj/Dhordo",
+        "duration": "8 hours",
+        "price_range": "₹400 - ₹800",
+        "frequency": "Hourly"
+      }
+    ],
+    "gir": [
+      {
+        "type": "train",
+        "name": "Junagadh Railway Station",
+        "description": "Nearest station to take cabs to Sasan Gir.",
+        "from_location": "Rajkot/Ahmedabad",
+        "to_location": "Junagadh",
+        "duration": "2.5 - 7 hours",
+        "price_range": "₹150 - ₹600",
+        "frequency": "Daily"
+      },
+      {
+        "type": "bus",
+        "name": "State Transport Cabs",
+        "description": "Local GSRTC buses and sharing taxis to Gir forest.",
+        "from_location": "Junagadh/Veraval",
+        "to_location": "Sasan Gir",
+        "duration": "1.5 hours",
+        "price_range": "₹80 - ₹250",
+        "frequency": "Every 30 mins"
+      }
+    ],
+    "dwarka": [
+      {
+        "type": "train",
+        "name": "Dwarka Railway Station",
+        "description": "Direct train routes from main cities.",
+        "from_location": "Ahmedabad/Rajkot",
+        "to_location": "Dwarka",
+        "duration": "7 hours",
+        "price_range": "₹200 - ₹900",
+        "frequency": "Multiple daily"
+      },
+      {
+        "type": "bus",
+        "name": "Private Volvo Sleepers",
+        "description": "Overnight luxury buses directly to temple town.",
+        "from_location": "Ahmedabad/Baroda",
+        "to_location": "Dwarka",
+        "duration": "9 hours",
+        "price_range": "₹500 - ₹1,200",
+        "frequency": "Daily"
+      }
+    ],
+    "somnath": [
+      {
+        "type": "train",
+        "name": "Veraval Railway Station",
+        "description": "Nearest rail line 7km from Somnath Temple.",
+        "from_location": "Ahmedabad",
+        "to_location": "Veraval",
+        "duration": "7.5 hours",
+        "price_range": "₹180 - ₹800",
+        "frequency": "Daily"
+      }
+    ],
+    "vadodara": [
+      {
+        "type": "train",
+        "name": "Vadodara Junction",
+        "description": "Centrally located key station of Western Railway.",
+        "from_location": "Mumbai/Delhi",
+        "to_location": "Vadodara",
+        "duration": "4.5 hours",
+        "price_range": "₹250 - ₹1,500",
+        "frequency": "Very Frequent"
+      }
+    ],
+    "surat": [
+      {
+        "type": "train",
+        "name": "Surat Railway Station",
+        "description": "One of the busiest stations connecting major Indian cities.",
+        "from_location": "Mumbai/Ahmedabad",
+        "to_location": "Surat",
+        "duration": "3 hours",
+        "price_range": "₹150 - ₹900",
+        "frequency": "Very Frequent"
+      }
+    ],
+    "saputara": [
+      {
+        "type": "bus",
+        "name": "GSRTC Hill Service",
+        "description": "Local and luxury buses climbing the Sahyadri ghats.",
+        "from_location": "Surat/Bilimora",
+        "to_location": "Saputara",
+        "duration": "3.5 hours",
+        "price_range": "₹120 - ₹350",
+        "frequency": "Daily"
+      }
+    ],
+    "kevadia": [
+      {
+        "type": "train",
+        "name": "Ekta Nagar (Kevadia) Station",
+        "description": "Direct trains recently launched to Kevadia.",
+        "from_location": "Ahmedabad/Vadodara",
+        "to_location": "Ekta Nagar",
+        "duration": "1.5 - 3 hours",
+        "price_range": "₹100 - ₹600",
+        "frequency": "Daily"
+      }
+    ],
+    "bhuj": [
+      {
+        "type": "flight",
+        "name": "Bhuj Domestic Airport",
+        "description": "Limited daily flights.",
+        "from_location": "Mumbai",
+        "to_location": "Bhuj",
+        "duration": "1 hour",
+        "price_range": "₹4,000 - ₹9,000",
+        "frequency": "Daily"
+      }
+    ],
+    "junagadh": [
+      {
+        "type": "train",
+        "name": "Junagadh Railway Station",
+        "description": "Direct connectivity with Ahmedabad.",
+        "from_location": "Ahmedabad",
+        "to_location": "Junagadh",
+        "duration": "6.5 hours",
+        "price_range": "₹180 - ₹800",
+        "frequency": "Multiple daily"
+      }
+    ],
+    "rajkot": [
+      {
+        "type": "flight",
+        "name": "Rajkot Hirasar Airport",
+        "description": "Connects Rajkot to main Indian cities.",
+        "from_location": "Mumbai/Delhi",
+        "to_location": "Rajkot",
+        "duration": "1.5 hours",
+        "price_range": "₹3,500 - ₹9,000",
+        "frequency": "Daily"
+      }
+    ],
+    "gandhinagar": [
+      {
+        "type": "train",
+        "name": "Gandhinagar Capital railway station",
+        "description": "Key station connected with high-speed Vande Bharat trains.",
+        "from_location": "Mumbai/Ahmedabad",
+        "to_location": "Gandhinagar",
+        "duration": "1-6 hours",
+        "price_range": "₹150 - ₹1,200",
+        "frequency": "Daily"
+      }
+    ],
+    "bhavnagar": [
+      {
+        "type": "train",
+        "name": "Bhavnagar Terminus",
+        "description": "Direct train lines connecting major Gujarat junctions.",
+        "from_location": "Ahmedabad",
+        "to_location": "Bhavnagar",
+        "duration": "5 hours",
+        "price_range": "₹150 - ₹800",
+        "frequency": "Multiple daily"
+      }
+    ],
+    "jamnagar": [
+      {
+        "type": "train",
+        "name": "Jamnagar Railway Station",
+        "description": "Major Saurashtra line station.",
+        "from_location": "Ahmedabad/Rajkot",
+        "to_location": "Jamnagar",
+        "duration": "5.5 hours",
+        "price_range": "₹180 - ₹900",
+        "frequency": "Daily"
+      }
+    ],
+    "porbandar": [
+      {
+        "type": "train",
+        "name": "Porbandar Railway Station",
+        "description": "Direct trains from key locations.",
+        "from_location": "Rajkot/Ahmedabad",
+        "to_location": "Porbandar",
+        "duration": "8 hours",
+        "price_range": "₹200 - ₹1,000",
+        "frequency": "Daily"
+      }
+    ],
+    "patan": [
+      {
+        "type": "bus",
+        "name": "GSRTC Express Patan",
+        "description": "Regular state transport buses.",
+        "from_location": "Ahmedabad",
+        "to_location": "Patan",
+        "duration": "3.5 hours",
+        "price_range": "₹100 - ₹250",
+        "frequency": "Hourly"
+      }
+    ],
+    "modhera": [
+      {
+        "type": "bus",
+        "name": "Modhera Junction Bus",
+        "description": "Local and state buses via Mehsana.",
+        "from_location": "Ahmedabad/Mehsana",
+        "to_location": "Modhera",
+        "duration": "2.5 hours",
+        "price_range": "₹80 - ₹180",
+        "frequency": "Every 30 mins"
+      }
+    ],
+    "champaner": [
+      {
+        "type": "bus",
+        "name": "Halol-Champaner Shuttle",
+        "description": "Shuttle buses from Vadodara city.",
+        "from_location": "Vadodara",
+        "to_location": "Champaner",
+        "duration": "1 hour",
+        "price_range": "₹50 - ₹120",
+        "frequency": "Every 20 mins"
+      }
+    ],
+    "anand": [
+      {
+        "type": "train",
+        "name": "Anand Junction",
+        "description": "Highly connected railway stop on the Main Line.",
+        "from_location": "Vadodara/Ahmedabad",
+        "to_location": "Anand",
+        "duration": "45 mins",
+        "price_range": "₹60 - ₹400",
+        "frequency": "Very Frequent"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+Created At: 2026-07-14T09:58:07Z
+Completed At: 2026-07-14T09:58:07Z
+File Path: `file:///c:/Users/baria/Downloads/discoveryatra-main/discoveryatra-main/frontend/src/data/staticData.js`
+Total Lines: 9
+Total Bytes: 303
+Showing lines 1 to 9
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: import citiesData from './cities.json';
+2: 
+3: export const DESTINATIONS = citiesData.destinations;
+4: export const HOTELS = citiesData.hotels;
+5: export const ATTRACTIONS = citiesData.attractions;
+6: export const SHOPPING = citiesData.shopping;
+7: export const TRANSPORT = citiesData.transport;
+8: export const TRIPS = [];
+9: 
+The above content shows the entire, complete file contents of the requested file.

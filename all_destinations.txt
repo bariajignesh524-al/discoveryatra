@@ -1,0 +1,147 @@
+ahmedabad|Ahmedabad|Gujarat
+kutch|Rann of Kutch|Gujarat
+gir|Gir National Park|Gujarat
+dwarka|Dwarka|Gujarat
+somnath|Somnath|Gujarat
+vadodara|Vadodara|Gujarat
+surat|Surat|Gujarat
+saputara|Saputara|Gujarat
+junagadh|Junagadh|Gujarat
+rajkot|Rajkot|Gujarat
+gandhinagar|Gandhinagar|Gujarat
+bhavnagar|Bhavnagar|Gujarat
+jamnagar|Jamnagar|Gujarat
+patan|Patan|Gujarat
+diu|Diu|Gujarat
+palitana|Palitana|Gujarat
+jaipur|Jaipur|Rajasthan
+udaipur|Udaipur|Rajasthan
+jodhpur|Jodhpur|Rajasthan
+jaisalmer|Jaisalmer|Rajasthan
+mount_abu|Mount Abu|Rajasthan
+pushkar|Pushkar|Rajasthan
+mumbai|Mumbai|Maharashtra
+pune|Pune|Maharashtra
+lonavala|Lonavala|Maharashtra
+panaji|Panaji|Goa
+calangute|Calangute|Goa
+baga|Baga|Goa
+shimla|Shimla|Himachal Pradesh
+manali|Manali|Himachal Pradesh
+dharamshala|Dharamshala|Himachal Pradesh
+nainital|Nainital|Uttarakhand
+mussoorie|Mussoorie|Uttarakhand
+rishikesh|Rishikesh|Uttarakhand
+kochi|Kochi|Kerala
+munnar|Munnar|Kerala
+alleppey|Alleppey|Kerala
+ajmer|Ajmer|Rajasthan
+bikaner|Bikaner|Rajasthan
+chittorgarh|Chittorgarh|Rajasthan
+ranthambore|Ranthambore|Rajasthan
+bundi|Bundi|Rajasthan
+alwar|Alwar|Rajasthan
+bharatpur|Bharatpur|Rajasthan
+kota|Kota|Rajasthan
+khandala|Khandala|Maharashtra
+mahabaleshwar|Mahabaleshwar|Maharashtra
+alibaug|Alibaug|Maharashtra
+matheran|Matheran|Maharashtra
+nashik|Nashik|Maharashtra
+aurangabad|Aurangabad|Maharashtra
+kolhapur|Kolhapur|Maharashtra
+tarkarli|Tarkarli|Maharashtra
+ratnagiri|Ratnagiri|Maharashtra
+shirdi|Shirdi|Maharashtra
+igatpuri|Igatpuri|Maharashtra
+lavasa|Lavasa|Maharashtra
+candolim|Candolim|Goa
+vagator|Vagator|Goa
+anjuna|Anjuna|Goa
+palolem|Palolem|Goa
+colva|Colva|Goa
+morjim|Morjim|Goa
+arambol|Arambol|Goa
+dudhsagar|Dudhsagar|Goa
+agonda|Agonda|Goa
+dalhousie|Dalhousie|Himachal Pradesh
+kasol|Kasol|Himachal Pradesh
+kullu|Kullu|Himachal Pradesh
+spiti_valley|Spiti Valley|Himachal Pradesh
+kufri|Kufri|Himachal Pradesh
+chail|Chail|Himachal Pradesh
+bir_billing|Bir Billing|Himachal Pradesh
+mcleod_ganj|McLeod Ganj|Himachal Pradesh
+kaza|Kaza|Himachal Pradesh
+haridwar|Haridwar|Uttarakhand
+auli|Auli|Uttarakhand
+kedarnath|Kedarnath|Uttarakhand
+badrinath|Badrinath|Uttarakhand
+chopta|Chopta|Uttarakhand
+jim_corbett|Jim Corbett|Uttarakhand
+valley_of_flowers|Valley of Flowers|Uttarakhand
+lansdowne|Lansdowne|Uttarakhand
+almora|Almora|Uttarakhand
+wayanad|Wayanad|Kerala
+thekkady|Thekkady|Kerala
+kumarakom|Kumarakom|Kerala
+varkala|Varkala|Kerala
+kovalam|Kovalam|Kerala
+bekal|Bekal|Kerala
+athirappilly|Athirappilly|Kerala
+kannur|Kannur|Kerala
+kozhikode|Kozhikode|Kerala
+thrissur|Thrissur|Kerala
+kevadia|Kevadia|Gujarat
+modhera|Modhera|Gujarat
+champaner|Champaner|Gujarat
+bhuj|Bhuj|Gujarat
+porbandar|Porbandar|Gujarat
+mandvi|Mandvi|Gujarat
+kumbhalgarh|Kumbhalgarh|Rajasthan
+mandawa|Mandawa|Rajasthan
+panchgani|Panchgani|Maharashtra
+tadoba|Tadoba|Maharashtra
+old_goa|Old Goa|Goa
+dona_paula|Dona Paula|Goa
+khajjiar|Khajjiar|Himachal Pradesh
+rohtang_pass|Rohtang Pass|Himachal Pradesh
+dehradun|Dehradun|Uttarakhand
+ranikhet|Ranikhet|Uttarakhand
+thiruvananthapuram|Thiruvananthapuram|Kerala
+vagamon|Vagamon|Kerala
+ambaji|Ambaji|Gujarat
+pavagadh|Pavagadh|Gujarat
+polo_forest|Polo Forest|Gujarat
+wilson_hills|Wilson Hills|Gujarat
+shivrajpur_beach|Shivrajpur Beach|Gujarat
+tithal_beach|Tithal Beach|Gujarat
+nalsarovar|Nalsarovar|Gujarat
+marine_national_park|Marine National Park|Gujarat
+velavadar_national_park|Velavadar National Park|Gujarat
+zarwani_waterfall|Zarwani Waterfall|Gujarat
+beyt_dwarka|Beyt Dwarka|Gujarat
+gopnath|Gopnath|Gujarat
+nathdwara|Nathdwara|Rajasthan
+ranakpur|Ranakpur|Rajasthan
+sariska|Sariska|Rajasthan
+abhaneri|Abhaneri|Rajasthan
+ganpatipule|Ganpatipule|Maharashtra
+murud_janjira|Murud Janjira|Maharashtra
+bhandardara|Bhandardara|Maharashtra
+malshej_ghat|Malshej Ghat|Maharashtra
+butterfly_beach|Butterfly Beach|Goa
+vasco_da_gama|Vasco da Gama|Goa
+margao|Margao|Goa
+solang_valley|Solang Valley|Himachal Pradesh
+manikaran|Manikaran|Himachal Pradesh
+keylong|Keylong|Himachal Pradesh
+sangla|Sangla|Himachal Pradesh
+kausani|Kausani|Uttarakhand
+devprayag|Devprayag|Uttarakhand
+gangotri|Gangotri|Uttarakhand
+yamunotri|Yamunotri|Uttarakhand
+poovar|Poovar|Kerala
+marari|Marari|Kerala
+ashtamudi|Ashtamudi|Kerala
+silent_valley|Silent Valley|Kerala

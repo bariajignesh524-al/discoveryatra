@@ -1,0 +1,70 @@
+Created At: 2026-07-14T09:58:04Z
+Completed At: 2026-07-14T09:58:04Z
+File Path: `file:///C:/Users/baria/.gemini/antigravity/brain/7f9cd283-0ae3-4316-910d-c608bd6f4137/scratch/list_images.py`
+Total Lines: 62
+Total Bytes: 2367
+Showing lines 1 to 62
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: import re
+2: import json
+3: 
+4: def parse_js_array(content, array_name):
+5:     # Find the array block
+6:     match = re.search(r'export const ' + array_name + r'\s*=\s*\[(.*?)(?=\nexport const|\n//|\Z)', content, re.DOTALL)
+7:     if not match:
+8:         return []
+9:     block = match.group(1)
+10:     
+11:     # We can parse this as loose JSON-like structures
+12:     # Let's find all objects between { and }
+13:     obj_strs = re.findall(r'\{(.*?)\}', block, re.DOTALL)
+14:     objs = []
+15:     for obj_str in obj_strs:
+16:         # Extract keys and values
+17:         obj = {}
+18:         for key_val in re.findall(r'\"([^\"]+)\"\s*:\s*(.*?)(?=\,\s*\"|\,\s*\}|\s*\}|\Z)', obj_str, re.DOTALL):
+19:             key = key_val[0]
+20:             val = key_val[1].strip()
+21:             # Clean val
+22:             if val.startswith('"') and val.endswith('"'):
+23:                 val = val[1:-1]
+24:             elif val.startswith('[') and val.endswith(']'):
+25:                 val = [v.strip().strip('"') for v in val[1:-1].split(',')]
+26:             else:
+27:                 try:
+28:                     val = float(val) if '.' in val else int(val)
+29:                 except ValueError:
+30:                     pass
+31:             obj[key] = val
+32:         if obj:
+33:             objs.append(obj)
+34:     return objs
+35: 
+36: def main():
+37:     print("--- FRONTEND STATIC DATA DESTINATIONS ---")
+38:     fe_content = open("frontend/src/data/staticData.js", encoding="utf-8").read()
+39:     fe_dests = parse_js_array(fe_content, "DESTINATIONS")
+40:     for d in fe_dests:
+41:         print(f"ID: {d.get('id')} | Name: {d.get('name')} | Image: {d.get('image_url')}")
+42: 
+43:     print("\n--- BACKEND SERVER DESTINATIONS ---")
+44:     be_content = open("backend/server.py", encoding="utf-8").read()
+45:     # Find DESTINATIONS_DATA = [ ... ]
+46:     be_match = re.search(r'DESTINATIONS_DATA\s*=\s*\[(.*?)(?=\nHOTELS_DATA|\Z)', be_content, re.DOTALL)
+47:     if be_match:
+48:         be_block = be_match.group(1)
+49:         # Find all objects
+50:         obj_strs = re.findall(r'\{(.*?)\}', be_block, re.DOTALL)
+51:         for obj_str in obj_strs:
+52:             # simple parse
+53:             obj = {}
+54:             for kv in re.findall(r'\"([^\"]+)\"\s*:\s*(.*?)(?=\,\s*\"|\,\s*\}|\s*\}|\Z)', obj_str, re.DOTALL):
+55:                 k = kv[0]
+56:                 v = kv[1].strip().strip('"')
+57:                 obj[k] = v
+58:             print(f"ID: {obj.get('id')} | Name: {obj.get('name')} | Image: {obj.get('image_url')}")
+59: 
+60: if __name__ == '__main__':
+61:     main()
+62: 
+The above content shows the entire, complete file contents of the requested file.

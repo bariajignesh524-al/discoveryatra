@@ -1,0 +1,47 @@
+The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.
+
+<SYSTEM_MESSAGE>
+[Message] timestamp=2026-07-14T09:53:02Z sender=7f9cd283-0ae3-4316-910d-c608bd6f4137/task-970 priority=MESSAGE_PRIORITY_LOW content=Task id "7f9cd283-0ae3-4316-910d-c608bd6f4137/task-970" was canceled with result:
+Step was canceled: context canceled by manage_task
+			The following output was generated before the cancellation.
+				Output:
+				INFO:     Started server process [25536]
+INFO:     Waiting for application startup.
+2026-07-14 15:22:14,160 - server - INFO - Database version mismatch or empty (stored: master_v6, current: master_v7). Re-seeding database...
+2026-07-14 15:22:15,272 - server - INFO - Database seeded successfully from cities.json!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52574 - "GET /api/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52575 - "GET /api/destinations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52576 - "GET /api/destinations/search?q=Ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52577 - "GET /api/destinations/search?q=Dwarka HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52578 - "GET /api/destinations/search?q=Beach HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52579 - "GET /api/destinations/search?q=Temple HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52580 - "GET /api/destinations/ahmedabad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52581 - "GET /api/destinations/ahmedabad/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52582 - "GET /api/destinations/ahmedabad/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52583 - "GET /api/destinations/ahmedabad/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52584 - "GET /api/destinations/ahmedabad/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52585 - "GET /api/destinations/kutch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52586 - "GET /api/destinations/kutch/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52587 - "GET /api/destinations/kutch/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52588 - "GET /api/destinations/kutch/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52589 - "GET /api/destinations/kutch/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52590 - "GET /api/destinations/gir HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52591 - "GET /api/destinations/gir/hotels HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52592 - "GET /api/destinations/gir/attractions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52593 - "GET /api/destinations/gir/shopping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52594 - "GET /api/destinations/gir/transport HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52595 - "POST /api/ai/description HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52596 - "POST /api/ai/description HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52597 - "POST /api/trips HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52598 - "POST /api/trips/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52599 - "GET /api/trips/4518afcd-d85d-4613-9a9d-7c9278c835a9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52600 - "POST /api/trips/4518afcd-d85d-4613-9a9d-7c9278c835a9/vote HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52601 - "GET /api/trips/4518afcd-d85d-4613-9a9d-7c9278c835a9/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52602 - "POST /api/compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52603 - "POST /api/ai/suggestions HTTP/1.1" 200 OK
+
+
+Log: file:///C:/Users/baria/.gemini/antigravity/brain/7f9cd283-0ae3-4316-910d-c608bd6f4137/.system_generated/tasks/task-970.log
+</SYSTEM_MESSAGE>

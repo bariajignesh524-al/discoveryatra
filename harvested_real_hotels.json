@@ -1,0 +1,489 @@
+{
+  "ahmedabad": [
+    {
+      "name": "Spice",
+      "latitude": 23.0125449,
+      "longitude": 72.5679747
+    },
+    {
+      "name": "Dev Regency",
+      "latitude": 23.0156138,
+      "longitude": 72.5656966
+    },
+    {
+      "name": "Comfort Inn",
+      "latitude": 23.0810988,
+      "longitude": 72.6169531
+    },
+    {
+      "name": "Sabermati Ashram Guesthouse",
+      "latitude": 23.0613841,
+      "longitude": 72.579973
+    },
+    {
+      "name": "Hotel Alkan",
+      "latitude": 23.0292295,
+      "longitude": 72.5834609
+    },
+    {
+      "name": "The Grand Bhagwati",
+      "latitude": 23.042462,
+      "longitude": 72.5144059
+    },
+    {
+      "name": "Kaka Bhajipav",
+      "latitude": 23.0037105,
+      "longitude": 72.6379538
+    },
+    {
+      "name": "The Ummed Ahmedabad",
+      "latitude": 23.0823961,
+      "longitude": 72.6165176
+    },
+    {
+      "name": "Good Night",
+      "latitude": 23.0268808,
+      "longitude": 72.5816588
+    },
+    {
+      "name": "Comfort",
+      "latitude": 23.0264847,
+      "longitude": 72.5821262
+    },
+    {
+      "name": "Mehul",
+      "latitude": 23.0267135,
+      "longitude": 72.581946
+    },
+    {
+      "name": "Metropole",
+      "latitude": 23.0266885,
+      "longitude": 72.5819313
+    },
+    {
+      "name": "Naeeka",
+      "latitude": 23.0552316,
+      "longitude": 72.5908571
+    },
+    {
+      "name": "Sahara",
+      "latitude": 23.0253454,
+      "longitude": 72.5829711
+    },
+    {
+      "name": "Volga",
+      "latitude": 23.0268157,
+      "longitude": 72.582027
+    },
+    {
+      "name": "Amrit hotel chhatral",
+      "latitude": 23.265271,
+      "longitude": 72.4638403
+    },
+    {
+      "name": "Hotel silver inn",
+      "latitude": 23.252596,
+      "longitude": 72.4840781
+    },
+    {
+      "name": "hotel sangrila",
+      "latitude": 22.9138916,
+      "longitude": 72.401875
+    },
+    {
+      "name": "Hotel sindbad",
+      "latitude": 23.2522793,
+      "longitude": 72.4854844
+    },
+    {
+      "name": "Sattadhar Benquet",
+      "latitude": 23.2487984,
+      "longitude": 72.4847949
+    },
+    {
+      "name": "Hotel royal hill",
+      "latitude": 23.2522871,
+      "longitude": 72.4840233
+    },
+    {
+      "name": "Hotel Neptune",
+      "latitude": 23.2391067,
+      "longitude": 72.4916641
+    },
+    {
+      "name": "hotel honey bonney",
+      "latitude": 23.0333487,
+      "longitude": 72.5578806
+    },
+    {
+      "name": "Krsna Lila",
+      "latitude": 23.0288104,
+      "longitude": 72.3001469
+    },
+    {
+      "name": "Evergreen Hotel",
+      "latitude": 22.9742764,
+      "longitude": 72.5865341
+    },
+    {
+      "name": "Royal Hotel",
+      "latitude": 23.1615482,
+      "longitude": 72.8080635
+    },
+    {
+      "name": "Fortune Inn Haveli",
+      "latitude": 23.2172456,
+      "longitude": 72.6491326
+    },
+    {
+      "name": "Ramada",
+      "latitude": 23.0106115,
+      "longitude": 72.5048495
+    },
+    {
+      "name": "होटल मीरेकल",
+      "latitude": 23.0149614,
+      "longitude": 72.5951405
+    },
+    {
+      "name": "Jalaram Parotha House",
+      "latitude": 23.0178297,
+      "longitude": 72.567758
+    },
+    {
+      "name": "Hotel marigol",
+      "latitude": 23.2288072,
+      "longitude": 72.6484446
+    },
+    {
+      "name": "Radisson Blu",
+      "latitude": 23.0232906,
+      "longitude": 72.5572097
+    },
+    {
+      "name": "Hyatt Vastrapore Lake",
+      "latitude": 23.0391529,
+      "longitude": 72.530495
+    },
+    {
+      "name": "Hotel King Palace",
+      "latitude": 23.0639876,
+      "longitude": 72.5813581
+    },
+    {
+      "name": "Kirti Executive Lounge",
+      "latitude": 23.0270204,
+      "longitude": 72.6011501
+    },
+    {
+      "name": "Amba Suites Hotel & Conventions",
+      "latitude": 23.1872784,
+      "longitude": 72.5740038
+    },
+    {
+      "name": "Wyndham Ahmedabad",
+      "latitude": 23.0062125,
+      "longitude": 72.4542309
+    },
+    {
+      "name": "Holiday Inn Express",
+      "latitude": 23.011444,
+      "longitude": 72.5106175
+    },
+    {
+      "name": "गुर्जर ढाबा एंड ट्रक पार्किंग",
+      "latitude": 23.1730717,
+      "longitude": 72.3749067
+    },
+    {
+      "name": "Gurjar Dhaba truck parking ka suvidha",
+      "latitude": 23.1751073,
+      "longitude": 72.3751066
+    },
+    {
+      "name": "Hotel Kamran Palace",
+      "latitude": 23.0269056,
+      "longitude": 72.5829956
+    },
+    {
+      "name": "The Parterre",
+      "latitude": 23.0509007,
+      "longitude": 72.5037209
+    },
+    {
+      "name": "The Leela Gandhinagar",
+      "latitude": 23.2341338,
+      "longitude": 72.6288875
+    },
+    {
+      "name": "Hotel Surya Villas by SrUrban Hotels",
+      "latitude": 23.041029,
+      "longitude": 72.5520935
+    },
+    {
+      "name": "Marshall",
+      "latitude": 23.0300339,
+      "longitude": 72.5992998
+    },
+    {
+      "name": "MG Hostel and PG Accommodation",
+      "latitude": 23.2219429,
+      "longitude": 72.503733
+    },
+    {
+      "name": "Ginger",
+      "latitude": 23.0264243,
+      "longitude": 72.3101169
+    }
+  ],
+  "kutch": [],
+  "gir": [
+    {
+      "name": "Lion Safari Camp",
+      "latitude": 21.1680385,
+      "longitude": 70.5760592
+    },
+    {
+      "name": "Gir Birding Lodge",
+      "latitude": 21.1799036,
+      "longitude": 70.5859001
+    },
+    {
+      "name": "Maneland Jungle Lodge",
+      "latitude": 21.1705,
+      "longitude": 70.571111
+    },
+    {
+      "name": "Sinh Sadan Guest House",
+      "latitude": 21.1697222,
+      "longitude": 70.5982069
+    },
+    {
+      "name": "Raghvendra Aashram Sasan Gir",
+      "latitude": 21.1730925,
+      "longitude": 70.5909622
+    },
+    {
+      "name": "Gokul Farmhouse",
+      "latitude": 21.149889,
+      "longitude": 70.6022914
+    }
+  ],
+  "dwarka": [
+    {
+      "name": "The Dwarika Hotel",
+      "latitude": 22.24119,
+      "longitude": 68.97435
+    },
+    {
+      "name": "Hotel Star",
+      "latitude": 22.4703933,
+      "longitude": 69.0731572
+    },
+    {
+      "name": "Hotel Mariners Court",
+      "latitude": 22.470398,
+      "longitude": 69.0730242
+    },
+    {
+      "name": "Devang",
+      "latitude": 22.241733,
+      "longitude": 68.9611258
+    },
+    {
+      "name": "Trimurti enterprise",
+      "latitude": 22.2439201,
+      "longitude": 68.9657532
+    },
+    {
+      "name": "Saurastra Leuva Patel Samaj Bhavan",
+      "latitude": 22.2463132,
+      "longitude": 68.9567085
+    },
+    {
+      "name": "Hotel Devang",
+      "latitude": 22.2417327,
+      "longitude": 68.9611089
+    },
+    {
+      "name": "Hotel Amidhara",
+      "latitude": 22.072581,
+      "longitude": 69.1472562
+    },
+    {
+      "name": "Milan Hotel & Guest House",
+      "latitude": 22.0746515,
+      "longitude": 69.1435412
+    },
+    {
+      "name": "Madhi kaviraj dhaba",
+      "latitude": 22.0879389,
+      "longitude": 69.1238264
+    },
+    {
+      "name": "Goverdhan Green Resort",
+      "latitude": 22.1920327,
+      "longitude": 69.0200941
+    },
+    {
+      "name": "Maraj's Home મારાજ નું ઘર",
+      "latitude": 22.1414611,
+      "longitude": 69.1966127
+    },
+    {
+      "name": "Chauhan pragnesh",
+      "latitude": 22.1828852,
+      "longitude": 69.2152689
+    },
+    {
+      "name": "HOTEL DWARKESH",
+      "latitude": 22.1946186,
+      "longitude": 69.192468
+    },
+    {
+      "name": "MURLIDHAR HOTEL",
+      "latitude": 22.1945707,
+      "longitude": 69.1923146
+    },
+    {
+      "name": "DILKAS PAN",
+      "latitude": 22.1946318,
+      "longitude": 69.191792
+    },
+    {
+      "name": "Hotal-Vadvala",
+      "latitude": 22.1943346,
+      "longitude": 69.1912041
+    },
+    {
+      "name": "Hotel Vatan",
+      "latitude": 22.195169,
+      "longitude": 69.1922282
+    },
+    {
+      "name": "The Fern Sattva Resort Dwarka",
+      "latitude": 22.2028059,
+      "longitude": 69.0141842
+    },
+    {
+      "name": "Ginger Dwarka",
+      "latitude": 22.2098193,
+      "longitude": 69.0105802
+    },
+    {
+      "name": "Hotel Pride Comfort",
+      "latitude": 22.2386269,
+      "longitude": 68.9714102
+    },
+    {
+      "name": "Sanatan hotel",
+      "latitude": 22.238504,
+      "longitude": 68.9716366
+    },
+    {
+      "name": "DM Bhavan Dwarka",
+      "latitude": 22.238602,
+      "longitude": 68.9721114
+    },
+    {
+      "name": "Balvi Bhavan",
+      "latitude": 22.2387064,
+      "longitude": 68.9720734
+    },
+    {
+      "name": "MEHUL ASHOK DABHI",
+      "latitude": 22.2388109,
+      "longitude": 68.9735199
+    },
+    {
+      "name": "The Grand Dwarika",
+      "latitude": 22.2390986,
+      "longitude": 68.9709607
+    },
+    {
+      "name": "Om shanti bhavan",
+      "latitude": 22.239275,
+      "longitude": 68.9718592
+    },
+    {
+      "name": "Hotel Silver Palace",
+      "latitude": 22.2391215,
+      "longitude": 68.9729413
+    },
+    {
+      "name": "Hotel Devkinandan",
+      "latitude": 22.2401421,
+      "longitude": 68.9738316
+    },
+    {
+      "name": "Hotel Pushpak",
+      "latitude": 22.2403282,
+      "longitude": 68.97405
+    },
+    {
+      "name": "Hotel project",
+      "latitude": 22.2401148,
+      "longitude": 68.9740917
+    },
+    {
+      "name": "Hotel Kuber",
+      "latitude": 22.24024,
+      "longitude": 68.9744528
+    },
+    {
+      "name": "Siddharth bhavan",
+      "latitude": 22.2378957,
+      "longitude": 68.9744734
+    },
+    {
+      "name": "AAVKAR STAY POINT",
+      "latitude": 22.2388799,
+      "longitude": 68.9703894
+    },
+    {
+      "name": "Hotel Shree Vallabh",
+      "latitude": 22.2388791,
+      "longitude": 68.9702649
+    },
+    {
+      "name": "Hotel Gomti View",
+      "latitude": 22.2388422,
+      "longitude": 68.97014
+    },
+    {
+      "name": "The Grand Mashru",
+      "latitude": 22.2387544,
+      "longitude": 68.9699672
+    },
+    {
+      "name": "Hotel Janki",
+      "latitude": 22.2386249,
+      "longitude": 68.9696382
+    },
+    {
+      "name": "Hotel Royal Inn",
+      "latitude": 22.2385043,
+      "longitude": 68.9695879
+    },
+    {
+      "name": "Shakti Nivas",
+      "latitude": 22.2383808,
+      "longitude": 68.9695274
+    },
+    {
+      "name": "Hotel Om Shanti",
+      "latitude": 22.2382156,
+      "longitude": 68.9692139
+    },
+    {
+      "name": "Hotel Gomti",
+      "latitude": 22.2384275,
+      "longitude": 68.9690976
+    },
+    {
+      "name": "Hotel Shree Krishna",
+      "latitude": 22.23764,
+      "longitude": 68.9680393
+    }
+  ]
+}

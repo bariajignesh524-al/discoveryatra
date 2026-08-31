@@ -1,0 +1,1 @@
+I will view the contents of `frontend/src/data/staticData.js` to see if the original working image URLs for Gujarat are listed there.
