@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6
+    container_name: packvote_mongodb
+    restart: always
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: packvote_backend
+    restart: always
+    environment:
+      - MONGO_URL=mongodb://mongodb:27017
+      - DB_NAME=discoveryatra
+      - CORS_ORIGINS=*
+      - EMERGENT_LLM_KEY=test_key
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY:-}
+    ports:
+      - '8000:8000'
+    depends_on:
+      - mongodb
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: packvote_frontend
+    restart: always
+    ports:
+      - '3000:80'
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:

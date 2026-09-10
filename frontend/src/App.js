@@ -48,24 +48,27 @@ const callGemini = async (prompt, apiKey) => {
   return data.candidates?.[0]?.content?.parts?.[0]?.text || "No response";
 };
 
-// Unregister service worker and clear caches to prevent stale cache bugs
+const getWebSocketUrl = (path) => {
+  if (process.env.REACT_APP_WS_URL) {
+    return `${process.env.REACT_APP_WS_URL}${path}`;
+  }
+  if (typeof window !== 'undefined') {
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      return `ws://127.0.0.1:8000${path}`;
+    }
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    return `${protocol}//${window.location.host}${path}`;
+  }
+  return `ws://127.0.0.1:8000${path}`;
+};
+
+// Unregister service worker to prevent stale cache bugs
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.getRegistrations().then((registrations) => {
-    if (registrations.length > 0) {
-      for (let registration of registrations) {
-        registration.unregister();
-      }
-      if ('caches' in window) {
-        caches.keys().then((names) => {
-          Promise.all(names.map(name => caches.delete(name))).then(() => {
-            window.location.reload();
-          });
-        });
-      } else {
-        window.location.reload();
-      }
+    for (let registration of registrations) {
+      registration.unregister();
     }
-  });
+  }).catch(() => {});
 }
 
 // ============== COMPONENTS ==============
@@ -102,7 +105,6 @@ const Navbar = () => {
         .then(favs => {
           const ids = favs.map(f => f.id);
           localStorage.setItem('favorites_cache', JSON.stringify(ids));
-          window.dispatchEvent(new Event('favorites-updated'));
         })
         .catch(err => console.error("Failed to sync favorites cache", err));
     }
@@ -114,14 +116,16 @@ const Navbar = () => {
       fetchNotificationsAndFavs();
     };
 
-    // Poll every 3 seconds
-    const interval = setInterval(fetchNotificationsAndFavs, 3000);
+    // Poll every 10 seconds
+    const interval = setInterval(fetchNotificationsAndFavs, 10000);
     
-    window.addEventListener('favorites-updated', handleAuthUpdate);
+    window.addEventListener('auth-updated', handleAuthUpdate);
+    window.addEventListener('storage', handleAuthUpdate);
     
     return () => {
       clearInterval(interval);
-      window.removeEventListener('favorites-updated', handleAuthUpdate);
+      window.removeEventListener('auth-updated', handleAuthUpdate);
+      window.removeEventListener('storage', handleAuthUpdate);
     };
   }, []);
 
@@ -275,6 +279,7 @@ const Navbar = () => {
                     localStorage.removeItem('token');
                     localStorage.removeItem('user_name');
                     localStorage.removeItem('user_email');
+                    window.dispatchEvent(new Event('auth-updated'));
                     window.dispatchEvent(new Event('favorites-updated'));
                     navigate('/');
                   }}
@@ -990,8 +995,7 @@ const TripDashboard = () => {
     // Establish Chat WebSocket connection
     let chatWs;
     const timer = setTimeout(() => {
-      const wsHost = window.location.hostname === 'localhost' ? '127.0.0.1' : window.location.hostname;
-      chatWs = new WebSocket(`ws://${wsHost}:8000/ws/trips/${tripId}/chat`);
+      chatWs = new WebSocket(getWebSocketUrl(`/ws/trips/${tripId}/chat`));
       chatSocketRef.current = chatWs;
 
       chatWs.onmessage = (event) => {
@@ -1121,11 +1125,9 @@ const TripDashboard = () => {
   useEffect(() => {
     if (!tripId) return;
 
-    // Use current location hostname dynamically to connect to the backend port 8000 ws endpoint
     let ws;
     const timer = setTimeout(() => {
-      const wsHost = window.location.hostname === 'localhost' ? '127.0.0.1' : window.location.hostname;
-      ws = new WebSocket(`ws://${wsHost}:8000/ws/trips/${tripId}`);
+      ws = new WebSocket(getWebSocketUrl(`/ws/trips/${tripId}`));
 
       ws.onmessage = (event) => {
         try {
@@ -3217,16 +3219,7 @@ const DestinationPage = () => {
 
     setLoadingAI(true);
     try {
-      const res = await fetch('http://127.0.0.1:8000/api/ai/description', {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          destination_name: destination.name,
-          topic: topic
-        })
-      });
-      if (!res.ok) throw new Error("Failed to fetch AI description from backend");
-      const responseData = await res.json();
+      const responseData = await mockApi.getAIDescription(destination.name, topic);
 
       console.log("Raw response object received from the AI description endpoint:", responseData);
 
@@ -4755,6 +4748,7 @@ const AuthPage = () => {
       localStorage.setItem('user_email', data.email);
       // Auto-set member_name to user's name for seamless integration with existing display-name flows
       localStorage.setItem('member_name', data.name);
+      window.dispatchEvent(new Event('auth-updated'));
       window.dispatchEvent(new Event('favorites-updated'));
       toast.success("Successfully logged in!");
       navigate('/my-trips');
@@ -4775,6 +4769,7 @@ const AuthPage = () => {
       localStorage.setItem('user_email', data.email);
       // Auto-set member_name to user's name for seamless integration with existing display-name flows
       localStorage.setItem('member_name', data.name);
+      window.dispatchEvent(new Event('auth-updated'));
       window.dispatchEvent(new Event('favorites-updated'));
       toast.success("Registration successful!");
       navigate('/my-trips');

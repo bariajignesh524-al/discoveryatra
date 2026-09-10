@@ -1,4 +1,4 @@
-const BASE_URL = 'http://127.0.0.1:8000/api';
+export const BASE_URL = process.env.REACT_APP_API_URL || (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') ? 'http://127.0.0.1:8000/api' : '/api');
 
 export const mockApi = {
   getDestinations: async () => {
@@ -380,6 +380,19 @@ export const mockApi = {
       const errData = await res.json().catch(() => ({}));
       throw new Error(errData.detail || "Failed to fetch trip messages");
     }
+    return res.json();
+  },
+
+  getAIDescription: async (destinationName, topic) => {
+    const res = await fetch(`${BASE_URL}/ai/description`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        destination_name: destinationName,
+        topic: topic
+      })
+    });
+    if (!res.ok) throw new Error("Failed to fetch AI description from backend");
     return res.json();
   }
 };
